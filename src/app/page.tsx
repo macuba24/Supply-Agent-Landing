@@ -14,7 +14,8 @@ const enterpriseHeroByLocale: Record<
     subline: string;
     badges: string[];
     ctaDemo: string;
-    ctaPdf: string;
+    ctaPartner: string;
+    ctaOverview: string;
     flowTitle: string;
     flowSteps: string[];
   }
@@ -29,7 +30,8 @@ const enterpriseHeroByLocale: Record<
       "✅ Multi-Language",
     ],
     ctaDemo: "Jetzt Demo vereinbaren",
-    ctaPdf: "Funktionsübersicht laden (PDF)",
+    ctaPartner: "Partner-Programm anfragen",
+    ctaOverview: "Funktionsübersicht ansehen",
     flowTitle: "Datenfluss auf einen Blick",
     flowSteps: ["Dokument/Anfrage", "KI-Extraktion", "Risiko-Engine", "SAP/ERP-Eintrag"],
   },
@@ -43,7 +45,8 @@ const enterpriseHeroByLocale: Record<
       "✅ Multi-Language",
     ],
     ctaDemo: "Book demo now",
-    ctaPdf: "Download feature overview (PDF)",
+    ctaPartner: "Get partner access",
+    ctaOverview: "View feature overview",
     flowTitle: "Data flow at a glance",
     flowSteps: ["Document/Request", "AI extraction", "Risk engine", "SAP/ERP entry"],
   },
@@ -57,7 +60,8 @@ const enterpriseHeroByLocale: Record<
       "✅ Multi-Language",
     ],
     ctaDemo: "Planifier une demo",
-    ctaPdf: "Telecharger les fonctionnalites (PDF)",
+    ctaPartner: "Demander acces partenaire",
+    ctaOverview: "Voir les fonctionnalites",
     flowTitle: "Flux de donnees en un coup d'oeil",
     flowSteps: ["Document/Demande", "Extraction IA", "Moteur de risque", "Entree SAP/ERP"],
   },
@@ -71,7 +75,8 @@ const enterpriseHeroByLocale: Record<
       "✅ Multi-Language",
     ],
     ctaDemo: "Solicitar demo ahora",
-    ctaPdf: "Descargar resumen funcional (PDF)",
+    ctaPartner: "Solicitar programa partner",
+    ctaOverview: "Ver resumen funcional",
     flowTitle: "Flujo de datos de un vistazo",
     flowSteps: ["Documento/Solicitud", "Extraccion IA", "Motor de riesgo", "Entrada SAP/ERP"],
   },
@@ -85,7 +90,8 @@ const enterpriseHeroByLocale: Record<
       "✅ Multi-Language",
     ],
     ctaDemo: "Agendar demo agora",
-    ctaPdf: "Baixar resumo funcional (PDF)",
+    ctaPartner: "Solicitar acesso parceiro",
+    ctaOverview: "Ver resumo funcional",
     flowTitle: "Fluxo de dados em resumo",
     flowSteps: ["Documento/Pedido", "Extracao IA", "Motor de risco", "Entrada SAP/ERP"],
   },
@@ -99,7 +105,8 @@ const enterpriseHeroByLocale: Record<
       "✅ Multi-Language",
     ],
     ctaDemo: "Prenota demo ora",
-    ctaPdf: "Scarica panoramica funzioni (PDF)",
+    ctaPartner: "Richiedi accesso partner",
+    ctaOverview: "Vedi panoramica funzioni",
     flowTitle: "Flusso dati in sintesi",
     flowSteps: ["Documento/Richiesta", "Estrazione IA", "Motore rischio", "Voce SAP/ERP"],
   },
@@ -113,7 +120,8 @@ const enterpriseHeroByLocale: Record<
       "✅ Multi-Language",
     ],
     ctaDemo: "지금 데모 예약",
-    ctaPdf: "기능 개요 다운로드(PDF)",
+    ctaPartner: "파트너 액세스 요청",
+    ctaOverview: "기능 개요 보기",
     flowTitle: "데이터 흐름 한눈에 보기",
     flowSteps: ["문서/요청", "AI 추출", "리스크 엔진", "SAP/ERP 입력"],
   },
@@ -127,7 +135,8 @@ const enterpriseHeroByLocale: Record<
       "✅ Multi-Language",
     ],
     ctaDemo: "立即预约演示",
-    ctaPdf: "下载功能概览（PDF）",
+    ctaPartner: "申请合作伙伴访问",
+    ctaOverview: "查看功能概览",
     flowTitle: "数据流一目了然",
     flowSteps: ["文档/请求", "AI 提取", "风险引擎", "SAP/ERP 入账"],
   },
@@ -154,6 +163,9 @@ const copy: Record<
     trustTag: string;
     trustTitle: string;
     trustText: string;
+    expertTag: string;
+    expertTitle: string;
+    expertText: string;
     contactButton: string;
   }
 > = {
@@ -202,6 +214,10 @@ const copy: Record<
     trustTitle: "Erfahrung trifft Technologie",
     trustText:
       "Entwickelt von Rainer Hampicke mit 20 Jahren Automotive-Projektmanagement-Erfahrung. Supply Agent entsteht aus realen Herausforderungen in globalen Beschaffungs- und Logistikprozessen und ist auf messbare Prozesssicherheit statt auf Folienversprechen ausgelegt.",
+    expertTag: "Built by Industry Experts",
+    expertTitle: "20+ Jahre Automotive-Erfahrung im Produktkern",
+    expertText:
+      "Von Serienanlauf bis Lieferantensteuerung: Die Plattform ist aus realen Prozessen im DE-MEX-USA-Korridor gedacht und für industrielle Teams ausgelegt.",
     contactButton: "Kontakt aufnehmen",
   },
   en: {
@@ -249,6 +265,10 @@ const copy: Record<
     trustTitle: "Experience meets technology",
     trustText:
       "Built by Rainer Hampicke with 20 years of automotive project management experience. Supply Agent is shaped by real procurement and logistics challenges and focused on measurable process reliability.",
+    expertTag: "Built by Industry Experts",
+    expertTitle: "20+ years of automotive expertise at the core",
+    expertText:
+      "From SOP ramp-up to supplier steering, the product reflects real-world processes across the DE-MEX-USA corridor for industrial teams.",
     contactButton: "Contact us",
   },
   fr: {
@@ -296,6 +316,10 @@ const copy: Record<
     trustTitle: "L'experience au service de la technologie",
     trustText:
       "Concu par Rainer Hampicke avec 20 ans d'experience en pilotage de projets automotive. Supply Agent repond a des enjeux reels d'achats et de logistique avec un objectif de fiabilite mesurable.",
+    expertTag: "Built by Industry Experts",
+    expertTitle: "20+ ans d'expertise automotive au coeur du produit",
+    expertText:
+      "Du lancement serie au pilotage fournisseurs, la plateforme s'appuie sur des processus reels adaptes aux equipes industrielles.",
     contactButton: "Nous contacter",
   },
   es: {
@@ -343,6 +367,10 @@ const copy: Record<
     trustTitle: "Experiencia y tecnologia",
     trustText:
       "Desarrollado por Rainer Hampicke con 20 anos de experiencia en gestion de proyectos automotive. Supply Agent nace de retos reales de compras y logistica con foco en fiabilidad medible.",
+    expertTag: "Built by Industry Experts",
+    expertTitle: "20+ anos de experiencia automotive en el nucleo",
+    expertText:
+      "Desde arranque de serie hasta gestion de proveedores: pensado para procesos reales del corredor DE-MEX-USA y equipos industriales.",
     contactButton: "Contactar",
   },
   pt: {
@@ -390,6 +418,10 @@ const copy: Record<
     trustTitle: "Experiência e tecnologia",
     trustText:
       "Desenvolvido por Rainer Hampicke com 20 anos de experiência em gestão de projetos automotivos. O Supply Agent nasce de desafios reais em compras e logística com foco em confiabilidade mensurável.",
+    expertTag: "Built by Industry Experts",
+    expertTitle: "20+ anos de experiencia automotiva no nucleo",
+    expertText:
+      "Do ramp-up de producao a gestao de fornecedores: feito para fluxos reais de equipes industriais.",
     contactButton: "Entrar em contato",
   },
   it: {
@@ -437,6 +469,10 @@ const copy: Record<
     trustTitle: "Esperienza e tecnologia",
     trustText:
       "Sviluppato da Rainer Hampicke con 20 anni di esperienza nel project management automotive. Supply Agent nasce da sfide reali in acquisti e logistica con focus su affidabilità misurabile.",
+    expertTag: "Built by Industry Experts",
+    expertTitle: "20+ anni di esperienza automotive nel prodotto",
+    expertText:
+      "Dal ramp-up produttivo alla gestione fornitori: progettato su processi reali per team industriali.",
     contactButton: "Contattaci",
   },
   ko: {
@@ -484,6 +520,10 @@ const copy: Record<
     trustTitle: "경험과 기술의 결합",
     trustText:
       "Rainer Hampicke의 20년 자동차 프로젝트관리 경험을 바탕으로 개발되었습니다. Supply Agent는 실제 구매/물류 과제를 해결하기 위해 만들어졌고 측정 가능한 프로세스 안정성에 집중합니다.",
+    expertTag: "Built by Industry Experts",
+    expertTitle: "20년 이상 Automotive 경험 기반",
+    expertText:
+      "양산 전개부터 공급업체 운영까지, 실제 산업 프로세스를 반영해 설계되었습니다.",
     contactButton: "문의하기",
   },
   zh: {
@@ -531,6 +571,10 @@ const copy: Record<
     trustTitle: "经验与技术结合",
     trustText:
       "由拥有 20 年汽车项目管理经验的 Rainer Hampicke 打造。Supply Agent 来自真实采购与物流场景，聚焦可量化的流程稳定性。",
+    expertTag: "Built by Industry Experts",
+    expertTitle: "核心产品融合 20+ 年汽车行业经验",
+    expertText:
+      "从量产爬坡到供应商协同，平台基于真实工业流程设计，适配跨区域团队协作。",
     contactButton: "联系我们",
   },
 };
@@ -556,11 +600,21 @@ export default function Home() {
   const enterpriseHero = enterpriseHeroByLocale[locale];
 
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const raw = (params.get("lang") ?? "de").toLowerCase();
-    if ((["de", "en", "fr", "es", "pt", "it", "ko", "zh"] as const).includes(raw as Locale)) {
-      setLocale(raw as Locale);
-    }
+    const syncLocaleFromUrl = () => {
+      const params = new URLSearchParams(window.location.search);
+      const raw = (params.get("lang") ?? "de").toLowerCase();
+      if ((["de", "en", "fr", "es", "pt", "it", "ko", "zh"] as const).includes(raw as Locale)) {
+        const nextLocale = raw as Locale;
+        setLocale(nextLocale);
+        if (params.get("lang") !== nextLocale) {
+          params.set("lang", nextLocale);
+          window.history.replaceState({}, "", `${pathname}?${params.toString()}`);
+        }
+      }
+    };
+    syncLocaleFromUrl();
+    window.addEventListener("popstate", syncLocaleFromUrl);
+    return () => window.removeEventListener("popstate", syncLocaleFromUrl);
   }, []);
 
   const handleLocaleChange = (nextLocale: Locale) => {
@@ -579,6 +633,7 @@ export default function Home() {
       email: String(formData.get("email") ?? ""),
       company: String(formData.get("company") ?? ""),
       message: String(formData.get("message") ?? ""),
+      website: String(formData.get("website") ?? ""),
       lang: locale,
     };
 
@@ -663,16 +718,26 @@ export default function Home() {
               href="#vorteile"
               className="rounded-lg border border-cyan-400/60 bg-cyan-500/10 px-5 py-2.5 font-medium text-cyan-100 transition hover:bg-cyan-500/20"
             >
-              {enterpriseHero.ctaPdf}
+              {enterpriseHero.ctaOverview}
+            </a>
+            <a
+              href="#testzugang"
+              className="rounded-lg border border-indigo-400/70 bg-indigo-500/20 px-5 py-2.5 font-semibold text-indigo-100 transition hover:bg-indigo-500/30"
+            >
+              {enterpriseHero.ctaPartner}
             </a>
           </div>
-          <div id="vorteile" className="mt-6 rounded-2xl border border-slate-700 bg-slate-950/70 p-4">
+          <div id="vorteile" className="mt-6 rounded-2xl border border-slate-700 bg-slate-950/70 p-4 md:p-5">
             <p className="text-xs uppercase tracking-[0.14em] text-slate-400">{enterpriseHero.flowTitle}</p>
-            <div className="mt-3 flex flex-wrap items-center gap-2 text-sm">
+            <div className="-mx-1 mt-3 flex snap-x snap-mandatory gap-2 overflow-x-auto px-1 pb-1 text-sm md:mx-0 md:flex-wrap md:overflow-visible md:px-0">
               {enterpriseHero.flowSteps.map((step, idx) => (
-                <span key={step} className="inline-flex items-center gap-2">
-                  <span className="rounded-md border border-slate-700 bg-slate-900 px-2.5 py-1 text-slate-200">{step}</span>
-                  {idx < enterpriseHero.flowSteps.length - 1 ? <span className="text-cyan-300">→</span> : null}
+                <span key={step} className="inline-flex shrink-0 snap-start items-center gap-2">
+                  <span className="rounded-lg border border-cyan-500/40 bg-slate-900 px-3 py-2 text-base font-medium text-slate-100 md:px-2.5 md:py-1 md:text-sm">
+                    {step}
+                  </span>
+                  {idx < enterpriseHero.flowSteps.length - 1 ? (
+                    <span className="text-lg font-semibold text-cyan-300 md:text-base">→</span>
+                  ) : null}
                 </span>
               ))}
             </div>
@@ -721,6 +786,12 @@ export default function Home() {
             className="mt-6 grid gap-4 md:grid-cols-2"
           >
             <input
+              name="website"
+              tabIndex={-1}
+              autoComplete="off"
+              className="hidden"
+            />
+            <input
               name="name"
               placeholder={t.placeholders.name}
               className="rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-sm outline-none ring-cyan-400 focus:ring"
@@ -759,12 +830,23 @@ export default function Home() {
           <p className="text-xs uppercase tracking-[0.18em] text-cyan-300">{t.trustTag}</p>
           <h2 className="mt-2 text-2xl font-semibold">{t.trustTitle}</h2>
           <p className="mt-3 max-w-4xl text-sm leading-relaxed text-slate-300">{t.trustText}</p>
+          <article className="mt-5 rounded-2xl border border-indigo-400/40 bg-indigo-500/10 p-4">
+            <p className="text-xs uppercase tracking-[0.14em] text-indigo-200">{t.expertTag}</p>
+            <h3 className="mt-2 text-base font-semibold text-indigo-100">{t.expertTitle}</h3>
+            <p className="mt-2 text-sm text-slate-200">{t.expertText}</p>
+          </article>
           <div className="mt-6 flex flex-wrap items-center gap-3">
             <a
               href="#testzugang"
               className="rounded-lg bg-cyan-400 px-5 py-2.5 font-semibold text-slate-950 transition hover:bg-cyan-300"
             >
               {t.heroTrial}
+            </a>
+            <a
+              href="#testzugang"
+              className="rounded-lg border border-indigo-400/70 bg-indigo-500/20 px-5 py-2.5 font-semibold text-indigo-100 transition hover:bg-indigo-500/30"
+            >
+              {enterpriseHero.ctaPartner}
             </a>
             <a
               href="mailto:kontakt@supply-agent.de"
