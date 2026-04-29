@@ -93,7 +93,7 @@ export function LanguageSwitcher({
   onChange: (nextLocale: LandingLocale) => void;
 }) {
   return (
-    <div className="flex flex-wrap items-center gap-1 rounded-full border border-slate-600 bg-slate-950/70 p-1 text-xs">
+    <div className="flex flex-wrap items-center gap-0.5 rounded-full border border-slate-600 bg-slate-950/70 p-0.5 text-[11px] sm:gap-1 sm:p-1 sm:text-xs">
       {SUPPORTED_LOCALES.map((locale) => {
         const isActive = locale === currentLocale;
         return (
@@ -101,7 +101,7 @@ export function LanguageSwitcher({
             key={locale}
             type="button"
             onClick={() => onChange(locale)}
-            className={`inline-flex h-7 items-center rounded-full px-2 transition ${
+            className={`inline-flex h-6 items-center rounded-full px-1.5 transition sm:h-7 sm:px-2 ${
               isActive ? "bg-indigo-500 text-white" : "text-slate-300 hover:bg-slate-800 hover:text-white"
             }`}
           >
