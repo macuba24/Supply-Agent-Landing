@@ -2,7 +2,7 @@
 
 export type LandingLocale = "de" | "en" | "fr" | "es" | "pt" | "it" | "ko" | "zh";
 
-const SUPPORTED_LOCALES: LandingLocale[] = ["de", "en", "fr", "es", "pt", "it", "ko", "zh"];
+const SUPPORTED_LOCALES: LandingLocale[] = ["de", "en", "es"];
 
 const LABELS: Record<LandingLocale, { code: string }> = {
   de: { code: "DE" },

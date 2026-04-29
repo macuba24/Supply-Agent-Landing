@@ -34,7 +34,7 @@ const enterpriseHeroByLocale: Record<
     ctaDemo: "Jetzt Demo vereinbaren",
     ctaPartner: "Partner-Programm anfragen",
     ctaOverview: "Funktionsübersicht ansehen",
-    ctaDeepDive: "Request a Deep Dive",
+    ctaDeepDive: "Deep Dive anfragen",
     flowTitle: "Datenfluss auf einen Blick",
     flowSteps: ["Dokument/Anfrage", "KI-Extraktion", "Risiko-Engine", "SAP/ERP-Eintrag"],
     deploymentGuarantee: "Ready to deploy in your plant within 48 hours.",
@@ -78,17 +78,17 @@ const enterpriseHeroByLocale: Record<
     subline:
       "Captura documental con IA, analisis matematico de riesgo e integracion SAP fluida. Desarrollado con 20 anos de experiencia automotive para automatizar tu cadena desde PDF hasta ERP.",
     badges: [
-      "✅ SAP-ready (OData/OAuth)",
+      "✅ SAP listo (OData/OAuth)",
       "✅ Cumple RGPD e ISO 27001",
-      "✅ Multi-Language",
+      "✅ Multi-idioma",
     ],
     ctaDemo: "Solicitar demo ahora",
     ctaPartner: "Solicitar programa partner",
     ctaOverview: "Ver resumen funcional",
-    ctaDeepDive: "Request a Deep Dive",
+    ctaDeepDive: "Solicitar Deep Dive",
     flowTitle: "Flujo de datos de un vistazo",
     flowSteps: ["Documento/Solicitud", "Extraccion IA", "Motor de riesgo", "Entrada SAP/ERP"],
-    deploymentGuarantee: "Ready to deploy in your plant within 48 hours.",
+    deploymentGuarantee: "Listo para implementarse en tu planta en 48 horas.",
   },
   pt: {
     headline: "Fim do caos manual de dados: Supply Agent para compras globais.",
@@ -648,14 +648,27 @@ const addonCopyByLocale: Record<
     cardCta: "Open Flow Agent",
   },
   fr: {} as (typeof addonCopyByLocale)["de"],
-  es: {} as (typeof addonCopyByLocale)["de"],
+  es: {
+    tag: "Herramienta adicional",
+    title: "Flow Agent ERP como extension de Supply Agent",
+    text:
+      "La nueva extension conecta el flujo documental con la ejecucion operativa ERP y la integracion SAP en un solo proceso continuo.",
+    points: [
+      "SP Ready: interfaces SAP directas (S/4HANA via OData/OAuth)",
+      "Configuracion global: region, moneda y sistema de unidades",
+      "Predicted bottlenecks con risk score en tracking",
+      "Compliance y audit log con filtros, export CSV y trazabilidad SAP",
+    ],
+    cta: "Abrir Flow Agent ERP en vivo",
+    cardCta: "Abrir Flow Agent",
+  },
   pt: {} as (typeof addonCopyByLocale)["de"],
   it: {} as (typeof addonCopyByLocale)["de"],
   ko: {} as (typeof addonCopyByLocale)["de"],
   zh: {} as (typeof addonCopyByLocale)["de"],
 };
 
-for (const locale of ["fr", "es", "pt", "it", "ko", "zh"] as const) {
+for (const locale of ["fr", "pt", "it", "ko", "zh"] as const) {
   addonCopyByLocale[locale] = addonCopyByLocale.en;
 }
 
@@ -671,9 +684,9 @@ const problemSolutionCopyByLocale: Record<
   }
 > = {
   de: {
-    title: "Probleme, die wir fuer Sie loesen",
+    title: "Probleme, die wir für Sie lösen",
     subtitle:
-      "Nicht Features. Sondern konkrete Business-Probleme aus Einkauf, Logistik, IT und Qualitaet - mit messbarem Ergebnis.",
+      "Nicht Features. Sondern konkrete Business-Probleme aus Einkauf, Logistik, IT und Qualität - mit messbarem Ergebnis.",
     items: [
       {
         problem:
@@ -685,7 +698,7 @@ const problemSolutionCopyByLocale: Record<
         problem:
           "2) Hoher Admin-Overhead: Ingenieure tippen Daten aus PDF, Excel und Frachtpapieren manuell in Systeme.",
         solution:
-          "Supply Agent extrahiert Daten autonom. Manueller Aufwand sinkt um bis zu 85%, Teams gewinnen Zeit fuer echte Wertarbeit.",
+          "Supply Agent extrahiert Daten autonom. Manueller Aufwand sinkt um bis zu 85%, Teams gewinnen Zeit für echte Wertarbeit.",
       },
       {
         problem:
@@ -695,9 +708,9 @@ const problemSolutionCopyByLocale: Record<
       },
       {
         problem:
-          "4) Audit-Risiko in Qualitaet: Reklamationen und 8D-Dokumente liegen verteilt, Nachweisfuehrung ist lueckenhaft.",
+          "4) Audit-Risiko in Qualität: Reklamationen und 8D-Dokumente liegen verteilt, Nachweisführung ist lückenhaft.",
         solution:
-          "Quality Agent als digitaler Quality-Twin: automatisierte 8D-Entwuerfe plus lueckenloser Audit-Trail fuer IATF-ready Audits.",
+          "Quality Agent als digitaler Quality-Twin: automatisierte 8D-Entwürfe plus lückenloser Audit-Trail für IATF-ready Audits.",
       },
       {
         problem:
@@ -777,14 +790,57 @@ const problemSolutionCopyByLocale: Record<
     ],
   },
   fr: {} as (typeof problemSolutionCopyByLocale)["de"],
-  es: {} as (typeof problemSolutionCopyByLocale)["de"],
+  es: {
+    title: "Problemas que resolvemos",
+    subtitle:
+      "No hablamos de features. Resolvemos cuellos de botella reales en compras, logistica, IT y calidad con impacto medible.",
+    items: [
+      {
+        problem:
+          "1) Punto ciego en logistica: los faltantes se detectan cuando la linea o la entrega ya estan afectadas.",
+        solution:
+          "Flow Agent da visibilidad del camino critico en tiempo real y detecta riesgos hasta 48 horas antes.",
+      },
+      {
+        problem:
+          "2) Sobrecarga administrativa: ingenieros capturan datos manualmente desde PDF, Excel y documentos de transporte.",
+        solution:
+          "Supply Agent extrae datos de forma autonoma y puede reducir trabajo manual hasta en 85%.",
+      },
+      {
+        problem:
+          "3) Trampa de complejidad SAP: cambios pequenos en ERP tardan meses y elevan el costo de consultoria.",
+        solution:
+          "Middleware SAP agil sobre su entorno actual: despliegue en 48 horas, no en 12 meses.",
+      },
+      {
+        problem:
+          "4) Riesgo de auditoria: reclamos y 8D dispersos en archivos aislados con trazabilidad incompleta.",
+        solution:
+          "Quality Agent crea un quality twin digital con borradores 8D y audit trail inmutable.",
+      },
+      {
+        problem:
+          "5) Friccion por idioma y frontera: equipos DE/USA/MEX trabajan con versiones distintas de la informacion.",
+        solution:
+          "Sincronizacion nativa DE/EN/ES sobre una unica fuente de verdad.",
+      },
+    ],
+    tableTitle: "Antes vs. Despues",
+    tableHeaders: { before: "Estado actual", after: "Con Supply + Flow + Quality Agent" },
+    tableRows: [
+      { before: "Excel manual y escalaciones por telefono", after: "Dashboards automatizados en tiempo real" },
+      { before: "Gestion reactiva de crisis", after: "Prevencion proactiva de riesgos" },
+      { before: "Costos fijos altos por consultoria", after: "Costos SaaS previsibles sin carga IT" },
+    ],
+  },
   pt: {} as (typeof problemSolutionCopyByLocale)["de"],
   it: {} as (typeof problemSolutionCopyByLocale)["de"],
   ko: {} as (typeof problemSolutionCopyByLocale)["de"],
   zh: {} as (typeof problemSolutionCopyByLocale)["de"],
 };
 
-for (const locale of ["fr", "es", "pt", "it", "ko", "zh"] as const) {
+for (const locale of ["fr", "pt", "it", "ko", "zh"] as const) {
   problemSolutionCopyByLocale[locale] = problemSolutionCopyByLocale.en;
 }
 
@@ -796,10 +852,10 @@ const supplyAgentProblemCopyByLocale: Record<
   }
 > = {
   de: {
-    title: "Probleme, die wir fuer Sie loesen (Supply Agent)",
+    title: "Probleme, die wir für Sie lösen (Supply Agent)",
     items: [
       "Manuelle Datenerfassung aus PDF/Excel/Frachtpapieren -> bis zu 85% weniger manueller Aufwand durch KI-Extraktion.",
-      "Intransparente Dokumentenstaende zwischen Einkauf, Logistik und Qualitaet -> ein zentraler, durchgaengiger Dokumenten-Flow.",
+      "Intransparente Dokumentenstände zwischen Einkauf, Logistik und Qualität -> ein zentraler, durchgängiger Dokumenten-Flow.",
       "Langsame Angebots- und Freigabeprozesse -> schnellere Reaktion durch strukturierte, sofort nutzbare Daten.",
     ],
   },
@@ -812,14 +868,21 @@ const supplyAgentProblemCopyByLocale: Record<
     ],
   },
   fr: {} as (typeof supplyAgentProblemCopyByLocale)["de"],
-  es: {} as (typeof supplyAgentProblemCopyByLocale)["de"],
+  es: {
+    title: "Problemas que resolvemos (Supply Agent)",
+    items: [
+      "Captura manual desde PDF/Excel/documentos de envio -> hasta 85% menos esfuerzo manual con extraccion IA.",
+      "Estado documental fragmentado entre compras, logistica y calidad -> un flujo documental centralizado de extremo a extremo.",
+      "Ciclos lentos de oferta y aprobacion -> respuesta mas rapida con datos estructurados y listos para usar.",
+    ],
+  },
   pt: {} as (typeof supplyAgentProblemCopyByLocale)["de"],
   it: {} as (typeof supplyAgentProblemCopyByLocale)["de"],
   ko: {} as (typeof supplyAgentProblemCopyByLocale)["de"],
   zh: {} as (typeof supplyAgentProblemCopyByLocale)["de"],
 };
 
-for (const locale of ["fr", "es", "pt", "it", "ko", "zh"] as const) {
+for (const locale of ["fr", "pt", "it", "ko", "zh"] as const) {
   supplyAgentProblemCopyByLocale[locale] = supplyAgentProblemCopyByLocale.en;
 }
 
@@ -858,54 +921,54 @@ const erpGapCopyByLocale: Record<
   }
 > = {
   de: {
-    title: "Don't let Legacy Systems slow down your Shop Floor.",
+    title: "Lassen Sie nicht zu, dass Legacy-Systeme Ihren Shopfloor ausbremsen.",
     subtitle:
-      "We solve the 3 biggest pain points in Automotive Supply Chains - without the 12-month IT project.",
+      "Wir lösen die drei größten Pain Points in Automotive Supply Chains - ohne 12-Monats-IT-Projekt.",
     cards: [
       {
         problemIcon: "⚠️",
         solutionIcon: "⚡",
         problemTitle: "SUPPLY AGENT: Stop Typing. Start Engineering.",
         problemText:
-          "20% of your engineers' time is wasted on manual data entry from PDFs and supplier docs.",
-        solutionTitle: "Our Solution: AI-Powered Data Extraction.",
+          "20% der Engineering-Zeit geht durch manuelle Datenerfassung aus PDF- und Lieferantendokumenten verloren.",
+        solutionTitle: "Unsere Lösung: KI-gestützte Datenextraktion.",
         solutionText:
-          "Automated extraction directly into structured operational workflows.",
+          "Automatisierte Extraktion direkt in strukturierte operative Workflows.",
         resultText:
-          "The Result: 85% less manual workload. Real-time data availability for SAP/ERP.",
+          "Das Ergebnis: Bis zu 85% weniger manueller Aufwand. Echtzeitverfügbarkeit für SAP/ERP.",
         sapFooter: "Auto-sync results directly to SAP MM/PP.",
       },
       {
         problemIcon: "🛑",
         solutionIcon: "🛰️",
-        problemTitle: 'The "Critical Path" Blindspot',
+        problemTitle: 'Der "Critical Path" Blindspot',
         problemText:
-          `You find out about missing parts when the line stops. SAP "Critical Path" is a myth, not a reality.`,
-        solutionTitle: "Our Solution: Real-Time Predictive Tracking.",
+          `Fehlteile werden sichtbar, wenn die Linie bereits steht. SAP "Critical Path" ist oft Mythos statt Realitaet.`,
+        solutionTitle: "Unsere Lösung: Predictive Tracking in Echtzeit.",
         solutionText:
-          "Live critical-path intelligence with early-warning bottleneck signals.",
+          "Live-Critical-Path-Intelligence mit Frühwarnsignalen für Engpässe.",
         resultText:
-          "The Result: See bottlenecks 48 hours before they hit the assembly line. Zero unplanned downtime.",
+          "Das Ergebnis: Engpaesse bis zu 48 Stunden frueher erkennen. Null ungeplante Stillstaende.",
         sapFooter: "Real-time SAP data enrichment for critical path visibility.",
       },
       {
         problemIcon: "🚨",
         solutionIcon: "🛡️",
-        problemTitle: "Audit & Liability Risks",
+        problemTitle: "Audit- und Haftungsrisiken",
         problemText:
-          "Scattered 8D reports, missing compliance docs, and audit-panic before IATF checks.",
-        solutionTitle: "Our Solution: Digital Quality Twin.",
+          "Verteilte 8D-Reports, fehlende Compliance-Dokumente und Audit-Panik vor IATF-Checks.",
+        solutionTitle: "Unsere Lösung: Digital Quality Twin.",
         solutionText:
-          "Centralized quality and compliance intelligence across your organization.",
+          "Zentralisierte Qualitäts- und Compliance-Intelligence über die gesamte Organisation.",
         resultText:
-          "The Result: AI-generated 8D drafts and a centralized, bulletproof audit trail for VW, MB, and BMW.",
+          "Das Ergebnis: KI-generierte 8D-Entwürfe und ein belastbarer zentraler Audit-Trail für VW, MB und BMW.",
         sapFooter: "Automated 8D-Drafts based on SAP quality notifications.",
       },
     ],
     deploymentBanner:
-      "No IT-Project. No Consultant-Army. Deployment in 48 Hours.",
-    deploymentCta: "Start Live Demo now",
-    bridgeTitle: "Zero Data Silos",
+      "Kein IT-Grossprojekt. Keine Berater-Armee. Deployment in 48 Stunden.",
+    deploymentCta: "Jetzt Live-Demo starten",
+    bridgeTitle: "Keine Datensilos",
     bridgeBody:
       "Integration: We speak SAP. (And OData, and SQL) Your ERP is the Brain. Flow Agent is the Nervous System. We connect seamlessly to your existing SAP landscape via OData or custom API - ensuring a single source of truth without manual synchronization.",
     bridgeNote:
@@ -913,9 +976,9 @@ const erpGapCopyByLocale: Record<
     bridgeLeft: "SAP ERP",
     bridgeCenter: "Bidirectional Real-Time Sync",
     bridgeRight: "Flow Agent",
-    engineerTag: "Built by an Engineer",
+    engineerTag: "Creado por un ingeniero",
     engineerQuote:
-      "After 20 years in Automotive Engineering at ZF and Kautex, I realized that SCM tools were built for accountants, not for engineers. I built Flow Agent to change that.",
+      "After 20 years in Automotive Engineering at ZF and Kautex -Textron, I realized that SCM tools were built for accountants, not for engineers. I built the Agent Apps to change that.",
     quickTitle: "Quick Check: Was kostet Sie ein manueller Prozess?",
     quickSubtitle: "Waehlen Sie Ihre aktuelle Situation aus und sehen Sie die erwartete Amortisationsdynamik.",
     checks: {
@@ -984,9 +1047,9 @@ const erpGapCopyByLocale: Record<
     bridgeLeft: "SAP ERP",
     bridgeCenter: "Bidirectional Real-Time Sync",
     bridgeRight: "Flow Agent",
-    engineerTag: "Built by an Engineer",
+    engineerTag: "Entwickelt von einem Ingenieur",
     engineerQuote:
-      "After 20 years in Automotive Engineering at ZF and Kautex, I realized that SCM tools were built for accountants, not for engineers. I built Flow Agent to change that.",
+      "After 20 years in Automotive Engineering at ZF and Kautex -Textron, I realized that SCM tools were built for accountants, not for engineers. I built the Agent Apps to change that.",
     quickTitle: "Quick check: What does a manual process cost you?",
     quickSubtitle: "Select your current situation and get an instant payback signal.",
     checks: {
@@ -1000,15 +1063,208 @@ const erpGapCopyByLocale: Record<
     resultLow: "Even at low volume, ROI is measurable through reduced admin overhead.",
   },
   fr: {} as (typeof erpGapCopyByLocale)["de"],
-  es: {} as (typeof erpGapCopyByLocale)["de"],
+  es: {
+    title: "No dejes que los sistemas heredados frenen tu planta.",
+    subtitle:
+      "Resolvemos los 3 mayores problemas de la supply chain automotriz, sin proyectos IT de 12 meses.",
+    cards: [
+      {
+        problemIcon: "⚠️",
+        solutionIcon: "⚡",
+        problemTitle: "SUPPLY AGENT: Deja de teclear. Vuelve a la ingeniería.",
+        problemText:
+          "20% del tiempo de ingenieria se pierde en captura manual de datos desde PDFs y documentos de proveedores.",
+        solutionTitle: "Nuestra solución: extracción de datos impulsada por IA.",
+        solutionText: "Extraccion automatizada en workflows operativos estructurados.",
+        resultText: "Resultado: 85% menos carga manual. Disponibilidad de datos en tiempo real para SAP/ERP.",
+        sapFooter: "Auto-sync results directly to SAP MM/PP.",
+      },
+      {
+        problemIcon: "🛑",
+        solutionIcon: "🛰️",
+        problemTitle: 'Punto ciego del "Critical Path"',
+        problemText:
+          'Se detectan faltantes cuando la linea ya se detuvo. El "Critical Path" en SAP suele llegar tarde.',
+        solutionTitle: "Nuestra solución: tracking predictivo en tiempo real.",
+        solutionText: "Inteligencia de camino critico en vivo con alertas tempranas.",
+        resultText:
+          "Resultado: detecta cuellos de botella hasta 48 horas antes de impactar la línea. Cero paros no planificados.",
+        sapFooter: "Real-time SAP data enrichment for critical path visibility.",
+      },
+      {
+        problemIcon: "🚨",
+        solutionIcon: "🛡️",
+        problemTitle: "Riesgos de auditoría y responsabilidad",
+        problemText:
+          "8D y documentos de cumplimiento dispersos elevan el riesgo antes de auditorias IATF.",
+        solutionTitle: "Nuestra solución: Digital Quality Twin.",
+        solutionText: "Inteligencia de calidad centralizada en toda la organizacion.",
+        resultText:
+          "Resultado: borradores 8D generados por IA y audit trail centralizado y robusto para VW, MB y BMW.",
+        sapFooter: "Automated 8D-Drafts based on SAP quality notifications.",
+      },
+    ],
+    deploymentBanner: "Sin proyecto IT. Sin ejército de consultores. Implementación en 48 horas.",
+    deploymentCta: "Iniciar demo en vivo ahora",
+    bridgeTitle: "Cero silos de datos",
+    bridgeBody:
+      "Integration: We speak SAP. (And OData, and SQL) Your ERP is the Brain. Flow Agent is the Nervous System. We connect seamlessly to your existing SAP landscape via OData or custom API - ensuring a single source of truth without manual synchronization.",
+    bridgeNote:
+      "No requerimos permisos de escritura en tablas core. Leemos necesidades y stock por API y damos velocidad al equipo de ingenieria.",
+    bridgeLeft: "SAP ERP",
+    bridgeCenter: "Sincronización bidireccional en tiempo real",
+    bridgeRight: "Flow Agent",
+    engineerTag: "Creado por un ingeniero",
+    engineerQuote:
+      "After 20 years in Automotive Engineering at ZF and Kautex -Textron, I realized that SCM tools were built for accountants, not for engineers. I built the Agent Apps to change that.",
+    quickTitle: "Quick check: ¿Cuánto te cuesta un proceso manual?",
+    quickSubtitle: "Selecciona tu situacion actual y obtiene una senal inmediata de payback.",
+    checks: {
+      docs: "10 min por documento de envio",
+      claims: "5 reclamaciones por mes",
+      downtime: "1h riesgo de paro de linea",
+    },
+    resultLabel: "Resultado",
+    resultFast: "Flow Agent se amortiza probablemente en < 30 dias.",
+    resultMedium: "Flow Agent normalmente se amortiza en 30-60 dias.",
+    resultLow: "Incluso con bajo volumen hay ROI medible por menor carga administrativa.",
+  },
   pt: {} as (typeof erpGapCopyByLocale)["de"],
   it: {} as (typeof erpGapCopyByLocale)["de"],
   ko: {} as (typeof erpGapCopyByLocale)["de"],
   zh: {} as (typeof erpGapCopyByLocale)["de"],
 };
 
-for (const locale of ["fr", "es", "pt", "it", "ko", "zh"] as const) {
+for (const locale of ["fr", "pt", "it", "ko", "zh"] as const) {
   erpGapCopyByLocale[locale] = erpGapCopyByLocale.en;
+}
+
+const trustCopyByLocale: Record<
+  Locale,
+  {
+    industrialTitle: string;
+    industrialSubtitle: string;
+    industrialKpis: Array<{ label: string; value: string }>;
+    proofTitle: string;
+    proofText: string;
+    founderTitle: string;
+    founderText: string;
+    integrationTitle: string;
+    integrationLink: string;
+    hardCta: string;
+    roiCta: string;
+  }
+> = {
+  de: {
+    industrialTitle: "Industrielle Robustheit, kein Baukasten",
+    industrialSubtitle:
+      "Ausgelegt für echte Produktionsdaten, nicht für Demo-Tabellen. Fokus: robuste Verarbeitung, klare Traceability, schnelle Entscheidungen im Shopfloor.",
+    industrialKpis: [
+      { label: "Dokumenttyp", value: "20-seitiges Bill of Lading" },
+      { label: "Vorher", value: "45 Min. manuelle Erfassung" },
+      { label: "Mit Supply Agent", value: "3 Min. Validierung" },
+      { label: "Fehlerrate", value: "<0.1%" },
+    ],
+    proofTitle: "Proof statt Marketing-Blabla",
+    proofText:
+      "Beispiel: Verarbeitung eines 20-seitigen Bill of Lading. Vorher: 45 Minuten manuelle Erfassung. Mit Supply Agent: 3 Minuten Validierung. Fehlerquote: <0.1%.",
+    founderTitle: "Warum wir das gebaut haben",
+    founderText:
+      "Nach 20 Jahren in Automotive-Werken in Deutschland und Mexiko habe ich gesehen, wie Teams in Papierarbeit untergehen. Ich habe die Agent Apps gebaut, um ihnen ihre Engineering-Zeit zurückzugeben.",
+    integrationTitle: "Technisches Integrationsblatt",
+    integrationLink: "Technisches Integrationsblatt öffnen",
+    hardCta: "15-Minuten Live-Demo mit Ihrem eigenen PDF buchen",
+    roiCta: "ROI jetzt berechnen",
+  },
+  en: {
+    industrialTitle: "Industrial Strength, not a template",
+    industrialSubtitle:
+      "Built for real production data, not slideware. Focused on robust throughput, traceability, and shopfloor decision speed.",
+    industrialKpis: [
+      { label: "Document type", value: "20-page Bill of Lading" },
+      { label: "Before", value: "45 minutes manual entry" },
+      { label: "With Supply Agent", value: "3 minutes validation" },
+      { label: "Error rate", value: "<0.1%" },
+    ],
+    proofTitle: "Proof, not buzzwords",
+    proofText:
+      "Example: Processing a 20-page Bill of Lading. Before: 45 Minutes manual entry. With Supply Agent: 3 Minutes validation. Error rate: <0.1%.",
+    founderTitle: "Por que construimos esto",
+    founderText:
+      "After 20 years in automotive plants in Germany and Mexico, I saw my team drowning in paperwork. I built this to give them back their engineering time.",
+    integrationTitle: "Technical Integration Sheet",
+    integrationLink: "Open Technical Integration Sheet",
+    hardCta: "Book a 15-minute Live Demo with your own PDF",
+    roiCta: "Calculate your ROI now",
+  },
+  fr: {} as (typeof trustCopyByLocale)["de"],
+  es: {
+    industrialTitle: "Nivel industrial, no plantilla",
+    industrialSubtitle:
+      "Disenado para datos reales de planta, con trazabilidad robusta y velocidad de decision en shopfloor.",
+    industrialKpis: [
+      { label: "Tipo de documento", value: "Bill of Lading de 20 paginas" },
+      { label: "Antes", value: "45 min captura manual" },
+      { label: "Con Supply Agent", value: "3 min validacion" },
+      { label: "Error", value: "<0.1%" },
+    ],
+    proofTitle: "Prueba, no buzzwords",
+    proofText:
+      "Example: Processing a 20-page Bill of Lading. Before: 45 Minutes manual entry. With Supply Agent: 3 Minutes validation. Error rate: <0.1%.",
+    founderTitle: "Why we built this",
+    founderText:
+      "Después de 20 años en plantas automotrices en Alemania y México, vi a mi equipo ahogarse en papeleo. Construí las Agent Apps para devolverles su tiempo de ingeniería.",
+    integrationTitle: "Ficha técnica de integración",
+    integrationLink: "Abrir ficha técnica de integración",
+    hardCta: "Reserva una demo en vivo de 15 minutos con tu propio PDF",
+    roiCta: "Calcula tu ROI ahora",
+  },
+  pt: {} as (typeof trustCopyByLocale)["de"],
+  it: {} as (typeof trustCopyByLocale)["de"],
+  ko: {} as (typeof trustCopyByLocale)["de"],
+  zh: {} as (typeof trustCopyByLocale)["de"],
+};
+
+for (const locale of ["fr", "pt", "it", "ko", "zh"] as const) {
+  trustCopyByLocale[locale] = trustCopyByLocale.en;
+}
+
+const contextTabsCopyByLocale: Record<
+  Locale,
+  {
+    title: string;
+    supply: string;
+    flow: string;
+    quality: string;
+  }
+> = {
+  de: {
+    title: "Kontext-Navigation",
+    supply: "Supply Agent Landingpage",
+    flow: "Flow Agent Landingseite",
+    quality: "Qualität / Integrationsblatt",
+  },
+  en: {
+    title: "Navegador de contexto",
+    supply: "Supply Agent Landing Page",
+    flow: "Flow Agent Landing Page",
+    quality: "Quality / Integration Sheet",
+  },
+  fr: {} as (typeof contextTabsCopyByLocale)["de"],
+  es: {
+    title: "Context Navigator",
+    supply: "Landingpage Supply Agent",
+    flow: "Landingpage Flow Agent",
+    quality: "Ficha tecnica / Integracion",
+  },
+  pt: {} as (typeof contextTabsCopyByLocale)["de"],
+  it: {} as (typeof contextTabsCopyByLocale)["de"],
+  ko: {} as (typeof contextTabsCopyByLocale)["de"],
+  zh: {} as (typeof contextTabsCopyByLocale)["de"],
+};
+
+for (const locale of ["fr", "pt", "it", "ko", "zh"] as const) {
+  contextTabsCopyByLocale[locale] = contextTabsCopyByLocale.en;
 }
 
 export default function Home() {
@@ -1023,6 +1279,8 @@ export default function Home() {
   const problemSolution = problemSolutionCopyByLocale[locale];
   const supplyProblems = supplyAgentProblemCopyByLocale[locale];
   const erpGap = erpGapCopyByLocale[locale];
+  const trust = trustCopyByLocale[locale];
+  const contextTabs = contextTabsCopyByLocale[locale];
   const [quickCheck, setQuickCheck] = useState({
     docs: false,
     claims: false,
@@ -1045,7 +1303,7 @@ export default function Home() {
     syncLocaleFromUrl();
     window.addEventListener("popstate", syncLocaleFromUrl);
     return () => window.removeEventListener("popstate", syncLocaleFromUrl);
-  }, []);
+  }, [pathname]);
 
   const handleLocaleChange = (nextLocale: Locale) => {
     const params = new URLSearchParams(window.location.search);
@@ -1094,25 +1352,63 @@ export default function Home() {
         <div className="sticky top-4 z-30 flex justify-end rounded-2xl border border-slate-700/80 bg-slate-900/85 p-2 backdrop-blur">
           <LanguageSwitcher currentLocale={locale} onChange={handleLocaleChange} />
         </div>
-        <nav className="sticky top-20 z-20 rounded-2xl border border-slate-700/80 bg-slate-900/80 p-3 backdrop-blur">
-          <div className="flex flex-wrap items-center gap-3">
-            <div className="inline-flex items-center gap-3">
+        <nav className="rounded-2xl border border-cyan-500/35 bg-slate-900/85 p-3 shadow-xl">
+          <div className="grid gap-2 sm:grid-cols-2">
+            <a
+              href={`/?lang=${locale}`}
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-700 bg-slate-950/70 px-3 py-2 text-center text-sm font-semibold text-slate-100 transition hover:border-cyan-400 hover:text-cyan-200"
+            >
               <Image
                 src="/app-logo-v2.png"
-                alt="Supply Agent Logo"
-                width={40}
-                height={40}
-                className="rounded-md"
-                priority
+                alt="Supply Agent App"
+                width={18}
+                height={18}
+                className="rounded-sm"
               />
-              <div>
-                <p className="text-xs uppercase tracking-[0.16em] text-cyan-300">Supply Agent</p>
-                <p className="text-sm text-slate-300">Industrial Supply Chain Intelligence</p>
-              </div>
-            </div>
+              {locale === "es" ? "App Supply Agent" : "Supply Agent App"}
+            </a>
+            <a
+              href={`/flow-agent?lang=${locale}`}
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-emerald-400/70 bg-emerald-500/20 px-3 py-2 text-center text-sm font-semibold text-emerald-100 transition hover:bg-emerald-500/30"
+            >
+              <Image
+                src="/flow-agent-logo.png"
+                alt="Flow Agent App"
+                width={18}
+                height={18}
+                className="rounded-sm"
+              />
+              {locale === "es" ? "App Flow Agent" : "Flow Agent App"}
+            </a>
           </div>
         </nav>
-
+        <section className="rounded-2xl border border-indigo-400/40 bg-indigo-500/10 p-5">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-indigo-200">
+            {erpGap.engineerTag}
+          </p>
+          <div className="mt-3 grid gap-3 md:grid-cols-[96px_1fr] md:items-start">
+            <Image
+              src="/rainer-hampicke.png"
+              alt="Rainer Hampicke"
+              width={96}
+              height={120}
+              className="h-[120px] w-[96px] rounded-lg border border-indigo-300/40 object-cover object-top"
+            />
+            <p className="text-sm text-slate-100">{erpGap.engineerQuote}</p>
+          </div>
+          <a
+            href="/technical-integration?lang=en"
+            className="mt-4 inline-flex rounded-lg border border-cyan-400/60 bg-cyan-500/15 px-3 py-1.5 text-xs font-semibold text-cyan-100 transition hover:bg-cyan-500/25"
+          >
+            {trust.integrationLink}
+          </a>
+          <a
+            href={`/flow-agent?lang=${locale}`}
+            className="mt-2 inline-flex rounded-lg border border-emerald-400/70 bg-emerald-500/20 px-3 py-1.5 text-xs font-semibold text-emerald-100 transition hover:bg-emerald-500/30"
+          >
+            {locale === "es" ? "Landingpage Flow Agent" : locale === "de" ? "Flow Agent Landingseite" : "Flow Agent Landing Page"}
+          </a>
+        </section>
         <header className="rounded-3xl border border-cyan-500/30 bg-gradient-to-br from-slate-900 to-cyan-950/40 p-8 shadow-2xl">
           <div className="inline-flex items-center gap-3 rounded-xl border border-slate-700/80 bg-slate-950/60 px-3 py-2">
             <Image
@@ -1146,35 +1442,35 @@ export default function Home() {
           <p className="mt-3 inline-flex rounded-lg border border-emerald-400/60 bg-emerald-500/15 px-3 py-1.5 text-sm font-semibold text-emerald-200">
             {enterpriseHero.deploymentGuarantee}
           </p>
-          <div className="mt-6 flex flex-wrap gap-3">
+          <div className="mt-6 flex flex-wrap items-center gap-3">
             <a
               href="#testzugang"
               className="inline-flex items-center gap-2 rounded-lg bg-cyan-400 px-5 py-2.5 font-semibold text-slate-950 transition hover:bg-cyan-300"
             >
               <Image src="/app-logo-v2.png" alt="Supply Agent" width={16} height={16} className="rounded-sm" />
-              {enterpriseHero.ctaDemo}
-            </a>
-            <a
-              href="#vorteile"
-              className="rounded-lg border border-cyan-400/60 bg-cyan-500/10 px-5 py-2.5 font-medium text-cyan-100 transition hover:bg-cyan-500/20"
-            >
-              {enterpriseHero.ctaOverview}
-            </a>
-            <a
-              href="#testzugang"
-              className="rounded-lg border border-indigo-400/70 bg-indigo-500/20 px-5 py-2.5 font-semibold text-indigo-100 transition hover:bg-indigo-500/30"
-            >
-              {enterpriseHero.ctaPartner}
+              {trust.hardCta}
             </a>
             <a
               href="https://www.linkedin.com/in/rainer-hampicke/"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-lg border border-emerald-400/70 bg-emerald-500/20 px-5 py-2.5 font-semibold text-emerald-100 transition hover:bg-emerald-500/30"
+              className="text-sm font-semibold text-emerald-200 underline underline-offset-4 transition hover:text-emerald-100"
             >
               {enterpriseHero.ctaDeepDive}
             </a>
           </div>
+          <p className="mt-3 text-sm font-semibold text-cyan-200">
+            {locale === "es"
+              ? "Desde USD 2.490/mes • Alcance piloto para una planta."
+              : locale === "de"
+                ? "Ab USD 2.490/Monat • Pilotumfang fuer ein Werk."
+                : "Starting at USD 2,490/month • Pilot scope for one plant."}
+          </p>
+          <p className="mt-1 text-xs text-slate-400">
+            {locale === "es"
+              ? "Disenado para el corredor DE-MEX-USA (incluyendo operaciones de proveedores maquiladora/IMMEX)."
+              : "Built for the DE-MEX-USA corridor (including maquiladora/IMMEX supplier operations)."}
+          </p>
           <div id="vorteile" className="mt-6 rounded-2xl border border-slate-700 bg-slate-950/70 p-4 md:p-5">
             <p className="text-xs uppercase tracking-[0.14em] text-slate-400">{enterpriseHero.flowTitle}</p>
             <div className="-mx-1 mt-3 flex snap-x snap-mandatory gap-2 overflow-x-auto px-1 pb-1 text-sm md:mx-0 md:flex-wrap md:overflow-visible md:px-0">
@@ -1191,6 +1487,88 @@ export default function Home() {
             </div>
           </div>
         </header>
+        <section className="rounded-2xl border border-cyan-500/35 bg-slate-900/85 p-4 shadow-xl">
+          <p className="text-xs uppercase tracking-[0.14em] text-cyan-300">{contextTabs.title}</p>
+          <div className="mt-3 grid gap-2 md:grid-cols-3">
+            <a
+              href={`/?lang=${locale}`}
+              className="rounded-lg border border-slate-700 bg-slate-950/70 px-3 py-2 text-center text-sm font-semibold text-slate-100 transition hover:border-cyan-400 hover:text-cyan-200"
+            >
+              {contextTabs.supply}
+            </a>
+            <a
+              href={`https://flow-agent-erp.vercel.app/tracking?lang=${locale}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-lg border border-cyan-400/60 bg-cyan-500/15 px-3 py-2 text-center text-sm font-semibold text-cyan-100 transition hover:bg-cyan-500/25"
+            >
+              {contextTabs.flow}
+            </a>
+            <a
+              href={`/technical-integration?lang=${locale === "de" ? "de" : "en"}`}
+              className="rounded-lg border border-indigo-400/60 bg-indigo-500/15 px-3 py-2 text-center text-sm font-semibold text-indigo-100 transition hover:bg-indigo-500/25"
+            >
+              {contextTabs.quality}
+            </a>
+          </div>
+        </section>
+
+        <section className="rounded-3xl border border-slate-700 bg-slate-900/85 p-8 shadow-2xl">
+          <h2 className="text-2xl font-bold text-white">{trust.industrialTitle}</h2>
+          <p className="mt-2 text-sm text-slate-300">{trust.industrialSubtitle}</p>
+          <div className="mt-5 grid gap-3 md:grid-cols-4">
+            {trust.industrialKpis.map((kpi) => (
+              <article key={kpi.label} className="rounded-xl border border-slate-700 bg-slate-950/70 p-4">
+                <p className="text-[11px] uppercase tracking-[0.1em] text-slate-400">{kpi.label}</p>
+                <p className="mt-2 text-sm font-semibold text-cyan-200">{kpi.value}</p>
+              </article>
+            ))}
+          </div>
+          <p className="mt-4 rounded-xl border border-cyan-500/45 bg-cyan-500/10 px-4 py-3 text-sm text-slate-100">
+            <span className="font-semibold text-cyan-200">{trust.proofTitle}:</span> {trust.proofText}
+          </p>
+          <div className="mt-5 grid gap-3 md:grid-cols-3">
+            <article className="rounded-xl border border-slate-700 bg-slate-950/70 p-4">
+              <p className="text-[11px] uppercase tracking-[0.1em] text-slate-400">
+                {locale === "es" ? "Prueba social" : "Social Proof"}
+              </p>
+              <p className="mt-2 text-sm font-semibold text-slate-100">
+                {locale === "es" ? "Proveedor Tier-1 (Baviera)" : "Tier-1 Supplier (Bayern)"}
+              </p>
+              <p className="mt-1 text-xs text-slate-300">
+                {locale === "es"
+                  ? "12.000 empleados • Onboarding multi-planta en progreso"
+                  : "12,000 employees • Multi-plant onboarding in progress"}
+              </p>
+            </article>
+            <article className="rounded-xl border border-slate-700 bg-slate-950/70 p-4">
+              <p className="text-[11px] uppercase tracking-[0.1em] text-slate-400">
+                {locale === "es" ? "Resultado piloto" : "Pilot Result"}
+              </p>
+              <p className="mt-2 text-sm font-semibold text-slate-100">
+                {locale === "es" ? "45 min a 3 min por documento" : "45 min to 3 min per document"}
+              </p>
+              <p className="mt-1 text-xs text-slate-300">
+                {locale === "es"
+                  ? "Flujo basado en validación, sin doble captura de datos"
+                  : "Validation-based workflow, no double data entry"}
+              </p>
+            </article>
+            <article className="rounded-xl border border-slate-700 bg-slate-950/70 p-4">
+              <p className="text-[11px] uppercase tracking-[0.1em] text-slate-400">
+                {locale === "es" ? "Preparación para auditoría" : "Audit Readiness"}
+              </p>
+              <p className="mt-2 text-sm font-semibold text-slate-100">
+                {locale === "es" ? "Trazabilidad lista para IATF" : "IATF-ready traceability"}
+              </p>
+              <p className="mt-1 text-xs text-slate-300">
+                {locale === "es"
+                  ? "Ruta de evidencia centralizada para auditorías OEM y de cliente"
+                  : "Centralized evidence trail for OEM and customer audits"}
+              </p>
+            </article>
+          </div>
+        </section>
 
         <section className="grid gap-6 md:grid-cols-3">
           {t.highlights.map((item) => (
@@ -1256,12 +1634,6 @@ export default function Home() {
               </div>
             </div>
             <p className="mt-3 text-xs text-slate-300">{erpGap.bridgeNote}</p>
-          </article>
-          <article className="mt-4 rounded-2xl border border-indigo-400/40 bg-indigo-500/10 p-5">
-            <p className="text-xs font-semibold uppercase tracking-[0.14em] text-indigo-200">
-              {erpGap.engineerTag}
-            </p>
-            <p className="mt-2 text-sm text-slate-100">{erpGap.engineerQuote}</p>
           </article>
           <article className="mt-8 rounded-2xl border border-cyan-400/40 bg-slate-950/70 p-5">
             <h3 className="text-lg font-semibold text-cyan-200">{erpGap.quickTitle}</h3>
