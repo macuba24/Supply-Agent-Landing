@@ -1,0 +1,84 @@
+{
+  "languageLabel": "DE",
+  "requestDemo": "Demo anfragen",
+  "suiteLabel": "Flow Agent Produktsuite",
+  "heroKicker": "Eskalationsmanagement",
+  "heroTitle": "Keine Kompromisse in der Lieferkette. KI-gestuetzte Praezision fuer den Automotive-Sektor.",
+  "heroSubtitle": "Flow Agent und Supply Agent sichern Serienanlauf, Gleichteil-Ueberwachung und Werkversorgung auf einer belastbaren Datenbasis.",
+  "globalPromise": "Entwickelt von einem Automobilingenieur",
+  "primaryCta": "Demo anfragen",
+  "marketTitle": "Marktfokus: Deutschland",
+  "marketSubtitle": "Ingenieursqualitaet, Regelkonformitaet und tiefe SAP-Integration fuer stabile Serienprozesse.",
+  "marketBullets": [
+    "IATF-16949-konforme Dokumentation und Nachweisprotokoll",
+    "DSGVO-konforme Datenhaltung mit klarer Nachvollziehbarkeit",
+    "Dunkelbuchungsquote senken durch strukturierte Extraktion",
+    "Tiefe SAP-Integration via OData/BAPI ohne Umbau des Kernsystems"
+  ],
+  "marketQuote": "Technische Praezision statt Folienversprechen - ausgelegt fuer den Ernstfall im Werkbetrieb.",
+  "focusTitle": "Regionaler Fokus",
+  "focusText": "IATF-Konformitaet, Prozessstabilitaet und belastbare SAP-Ausfuehrung fuer ingenieursgetriebene Organisationen im Serienanlauf.",
+  "hardImpact": {
+    "title": "Wenn jede Minute eine Million kostet.",
+    "content": "Unsere KI unterbindet Linienstopps durch fruehe Risikoerkennung, steuert Eskalationen ueber mehrere OEM-Programme hinweg und erzeugt revisionssichere Nachweise gemaess IATF 16949.",
+    "indicators": [
+      { "level": "ROT - Akut", "detail": "Linienstopp-Risiko: Sofortige Eskalation an Werk, Einkauf und Lieferant." },
+      { "level": "GELB - Vorwarnung", "detail": "Gleichteil-Ueberwachung meldet Toleranzabweichungen vor dem Folgeschaden." },
+      { "level": "GRUEN - Stabil", "detail": "Auditfaehige Dokumentation fuer IATF 16949 liegt vollstaendig und abrufbar vor." }
+    ]
+  },
+  "fieldReports": {
+    "title": "Anonymisierte Feldberichte",
+    "principle": "Der Fokus liegt nicht auf Verantwortlichen, sondern auf den Mechanismen, mit denen Flow Agent systemische Risiken frueh erkennt und absichert.",
+    "cases": [
+      {
+        "title": "CASE 1",
+        "body": "Grossprojekt eines US-basierten OEM mit Kunststoff- gegen Metallkomponenten in einer Lenkungsbaugruppe. Rund 10.000 Fahrzeuge standen auf Hold. Flow Agent priorisiert Abweichungen, startet Eskalationsmanagement und stabilisiert den Serienanlauf."
+      },
+      {
+        "title": "CASE 2",
+        "body": "Qualitaetskrise in einer globalen Driveline-Plattform mit elektronischen Bauteilen und Materialabweichungen. Flow Agent kombiniert Gleichteil-Ueberwachung, fruehe Warnsignale und belastbare Nachweisfuehrung fuer Entscheidungen unter Zeitdruck."
+      }
+    ]
+  },
+  "founder": {
+    "kicker": "Ueber den Gruender",
+    "title": "20+ Jahre Automotive-Erfahrung in Qualitaet und Serienanlauf.",
+    "body": "Der Gruender bringt mehr als 20 Jahre Erfahrung bei fuehrenden Tier-1-Zulieferern fuer Seating, Fuel Systems und Driveline-Technologie mit. Er verantwortete globale Programme fuer grosse deutsche und US-basierte OEMs.",
+    "usp": "Wir verbinden hohe Umsetzungsgeschwindigkeit mit deutscher Ingenieursqualitaet auf belastbarem Industrieniveau."
+  },
+  "roiModule": null,
+  "flow": {
+    "tabLabel": "Flow Agent",
+    "tag": "Echtzeit-Verfolgung",
+    "title": "Steuern Sie den kritischen Pfad in Echtzeit.",
+    "description": "Flow Agent liefert 24/7 Sicht auf Transport, Engpaesse und Risikoentwicklung - damit Produktion und Beschaffung nicht im Blindflug arbeiten.",
+    "highlights": [
+      "Vorhergesagte Engpaesse mit priorisierter Risikobewertung",
+      "Echtzeitverfolgung fuer globale Lieferstroeme",
+      "SAP-nahe Entscheidungslogik fuer operative Teams"
+    ],
+    "kpis": [
+      { "label": "Frueherkennung", "value": "bis zu 48h" },
+      { "label": "Sichtbarkeit", "value": "24/7" },
+      { "label": "Integration", "value": "SAP OData/BAPI" }
+    ]
+  },
+  "supply": {
+    "tabLabel": "Supply Agent",
+    "tag": "KI-Dokumentextraktion",
+    "title": "Von Frachtdokument zu sauberem ERP-Datensatz in Minuten.",
+    "description": "Supply Agent digitalisiert dokumentenlastige Prozesse, reduziert manuelle Eingriffe und schafft eine valide Datenbasis fuer Einkauf, Qualitaet und Finanzen.",
+    "highlights": [
+      "Automatische Extraktion aus PDF, Lieferschein und Lieferantendokumenten",
+      "Reduktion versteckter Verwaltungsarbeit in Ingenieurteams",
+      "Standardisierte Uebergabe an SAP-Prozessablaeufe"
+    ],
+    "kpis": [
+      { "label": "Zeit pro Dokument", "value": "45 -> 3 Min" },
+      { "label": "Manueller Aufwand", "value": "-85%" },
+      { "label": "Amortisation", "value": "< 30 Tage" }
+    ]
+  },
+  "contactEmail": "rainer.hampicke@gmail.com"
+}

@@ -1,0 +1,139 @@
+{
+  "languageLabel": "EN",
+  "requestDemo": "Request Demo",
+  "suiteLabel": "Flow Agent Suite",
+  "heroKicker": "Product Suite",
+  "heroTitle": "One master URL for industrial supply chain execution.",
+  "heroSubtitle": "Flow Agent and Supply Agent run on one connected data model - built for procurement, logistics, and quality teams that need decisions fast.",
+  "globalPromise": "Built by an Automotive Engineer",
+  "primaryCta": "Request Demo",
+  "marketTitle": "Market Focus: United States",
+  "marketSubtitle": "ROI-first positioning for speed, efficiency, and scalable operations.",
+  "marketBullets": [
+    "Typical ROI in under 30 days",
+    "Eliminate hidden labor cost from manual workflows",
+    "24/7 visibility across routes, suppliers, and risk events",
+    "Fast implementation without heavyweight IT projects"
+  ],
+  "marketQuote": "A game-changer for teams that need measurable impact this quarter.",
+  "focusTitle": "Regional Focus",
+  "focusText": "ROI acceleration, efficiency, and scale without increasing headcount.",
+  "founder": {
+    "kicker": "About the Founder",
+    "title": "20+ years of automotive execution across Tier-1 environments.",
+    "body": "The founder brings 20+ years of experience at leading Tier-1 suppliers for Seating, Fuel Systems, and Driveline Technology. He has managed global projects for major German and US-based OEMs.",
+    "usp": "We combine high execution speed with German engineering quality at industrial scale."
+  },
+  "roiModule": {
+    "kicker": "US ROI Module",
+    "title": "US-Market ROI Calculator",
+    "subtitle": "Financial impact view for CFO and operations leadership.",
+    "headers": {
+      "current": "Current State",
+      "withAgent": "With Flow Agent Suite"
+    },
+    "rows": [
+      {
+        "current": "Manual Processing Cost",
+        "withAgent": "Flow Agent Cost"
+      },
+      {
+        "current": "Time per Document: 45 min",
+        "withAgent": "Time per Document: < 2 min"
+      },
+      {
+        "current": "Risk of Production Stop: HIGH",
+        "withAgent": "Risk of Production Stop: PREDICTED & SOLVED"
+      },
+      {
+        "current": "Human Error Rate: 5-8%",
+        "withAgent": "AI Accuracy: 99.9%"
+      }
+    ],
+    "primaryCta": "Get your customized ROI-Audit",
+    "secondaryCta": "Scale your operation without adding headcount"
+  },
+  "flow": {
+    "tabLabel": "Flow Agent",
+    "tag": "Real-time Tracking",
+    "title": "Run your critical path with live operational control.",
+    "description": "Flow Agent gives planners and buyers real-time visibility into transport status, bottleneck risk, and exception handling across the network.",
+    "highlights": [
+      "Predicted bottlenecks ranked by risk score",
+      "Live cross-site tracking for global programs",
+      "Actionable SAP-connected insights for operations"
+    ],
+    "kpis": [
+      {
+        "label": "Downtime Prevention",
+        "value": "up to 48h earlier alerts"
+      },
+      {
+        "label": "Visibility",
+        "value": "24/7"
+      },
+      {
+        "label": "Go-live Speed",
+        "value": "48 hours"
+      }
+    ]
+  },
+  "supply": {
+    "tabLabel": "Supply Agent",
+    "tag": "AI Document Extraction",
+    "title": "Turn freight documents into ERP-ready data in minutes.",
+    "description": "Supply Agent removes manual document handling, improves consistency, and frees teams from repetitive data entry.",
+    "highlights": [
+      "AI extraction from PDF, Bill of Lading, and supplier documents",
+      "Cuts hidden labor cost across admin-heavy processes",
+      "Structured handoff into SAP workflows"
+    ],
+    "kpis": [
+      {
+        "label": "Doc Handling Time",
+        "value": "45 -> 3 min"
+      },
+      {
+        "label": "Manual Workload",
+        "value": "-85%"
+      },
+      {
+        "label": "Payback",
+        "value": "< 30 days"
+      }
+    ]
+  },
+  "contactEmail": "rainer.hampicke@gmail.com",
+  "hardImpact": {
+    "title": "When every minute costs millions.",
+    "content": "The platform prevents line stops with early risk detection, orchestrates escalation across multi-brand OEM programs, and keeps audit-ready IATF 16949 evidence in place.",
+    "indicators": [
+      {
+        "level": "RED - Critical",
+        "detail": "Line-stop risk is active and escalation starts immediately."
+      },
+      {
+        "level": "YELLOW - Warning",
+        "detail": "Part-level monitoring flags deviations before cascading impact."
+      },
+      {
+        "level": "GREEN - Stable",
+        "detail": "Audit trail is complete and retrieval-ready."
+      }
+    ]
+  },
+  "fieldReports": {
+    "title": "Anonymized Field Reports",
+    "principle": "The focus is not who caused the issue, but how Flow Agent prevents systemic supply-chain risk before impact scales.",
+    "cases": [
+      {
+        "title": "CASE 1",
+        "body": "A major US-based OEM program involving plastic versus metal components in a steering assembly placed about 10,000 vehicles on hold. Flow Agent surfaces the deviation early, drives escalation management, and protects launch stability."
+      },
+      {
+        "title": "CASE 2",
+        "body": "A quality crisis in a global driveline platform involved electronic components and material deviations. Flow Agent links part-level monitoring, early warnings, and audit-ready documentation for time-critical decisions."
+      }
+    ]
+  }
+}

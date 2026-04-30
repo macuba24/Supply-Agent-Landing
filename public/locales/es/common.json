@@ -1,0 +1,111 @@
+{
+  "languageLabel": "ES",
+  "requestDemo": "Solicitar demo",
+  "suiteLabel": "Suite de Productos Flow Agent",
+  "heroKicker": "Suite de Productos",
+  "heroTitle": "Una URL maestra para operaciones globales sin friccion.",
+  "heroSubtitle": "Flow Agent y Supply Agent comparten una misma verdad operativa para sincronizar planta, logistica y sede central.",
+  "globalPromise": "Construido por un ingeniero automotriz",
+  "primaryCta": "Solicitar demo",
+  "marketTitle": "Enfoque de mercado: Mexico",
+  "marketSubtitle": "Sincronizacion transfronteriza para plantas MX conectadas con equipos DE/US.",
+  "marketBullets": [
+    "Visibilidad en tiempo real para reporteo global",
+    "Sincronizacion entre planta, logistica y sede central",
+    "Uso simple para equipos de planta",
+    "Una sola verdad operativa en entornos IMMEX/maquiladora"
+  ],
+  "marketQuote": "Confiabilidad operativa para cerrar la brecha entre equipos y fronteras.",
+  "focusTitle": "Foco regional",
+  "focusText": "Comunicacion entre plantas, puente de idioma y transparencia operativa entre MX, US y DE.",
+  "founder": {
+    "kicker": "Sobre el fundador",
+    "title": "20+ anos de experiencia automotriz en ejecucion y calidad.",
+    "body": "El fundador aporta mas de 20 anos de experiencia en proveedores Tier-1 lideres de Seating, Fuel Systems y tecnologia Driveline. Ha gestionado proyectos globales para grandes OEMs alemanes y estadounidenses.",
+    "usp": "Combinamos alta velocidad de ejecucion con calidad de ingenieria alemana a escala industrial."
+  },
+  "roiModule": null,
+  "flow": {
+    "tabLabel": "Flow Agent",
+    "tag": "Seguimiento en tiempo real",
+    "title": "Controla la ruta cr\u00c3\u00adtica con visibilidad en vivo.",
+    "description": "Flow Agent muestra estado logistico, riesgo de cuello de botella y alertas tempranas para evitar paros y escalaciones tardias.",
+    "highlights": [
+      "Cuellos de botella previstos con puntuacion de riesgo priorizada",
+      "Seguimiento en vivo para cadenas globales DE-US-MX",
+      "Decisiones operativas conectadas a SAP"
+    ],
+    "kpis": [
+      {
+        "label": "Alerta temprana",
+        "value": "hasta 48h antes"
+      },
+      {
+        "label": "Visibilidad",
+        "value": "24/7"
+      },
+      {
+        "label": "Sincronizacion",
+        "value": "Planta + sede central"
+      }
+    ]
+  },
+  "supply": {
+    "tabLabel": "Supply Agent",
+    "tag": "Extraccion documental con IA",
+    "title": "Transforma documentos de embarque en datos listos para ERP.",
+    "description": "Supply Agent elimina captura manual, mejora comunicacion entre equipos y acelera reportes confiables para operaciones globales.",
+    "highlights": [
+      "Extraccion automatica desde PDF, Albar\u00c3\u00a1n y documentos de proveedor",
+      "Menos carga administrativa oculta en el dia a dia",
+      "Salida estructurada para procesos SAP"
+    ],
+    "kpis": [
+      {
+        "label": "Tiempo por documento",
+        "value": "45 -> 3 min"
+      },
+      {
+        "label": "Trabajo manual",
+        "value": "-85%"
+      },
+      {
+        "label": "ROI",
+        "value": "< 30 dias"
+      }
+    ]
+  },
+  "contactEmail": "rainer.hampicke@gmail.com",
+  "hardImpact": {
+    "title": "Cuando cada minuto cuesta millones.",
+    "content": "La plataforma evita paros de linea con deteccion temprana de riesgo, coordina escalaciones entre marcas y mantiene evidencia lista para auditoria bajo IATF 16949.",
+    "indicators": [
+      {
+        "level": "ROJO - Critico",
+        "detail": "Riesgo de paro de linea activo, escalacion inmediata."
+      },
+      {
+        "level": "AMARILLO - Alerta",
+        "detail": "Monitoreo de piezas detecta desviaciones antes del impacto."
+      },
+      {
+        "level": "VERDE - Estable",
+        "detail": "Trazabilidad y evidencia listas para auditoria."
+      }
+    ]
+  },
+  "fieldReports": {
+    "title": "Informes de campo anonimizados",
+    "principle": "El foco no es quien cometio el error, sino como Flow Agent previene riesgos sistemicos antes de que escalen.",
+    "cases": [
+      {
+        "title": "CASE 1",
+        "body": "Proyecto de un gran OEM con base en EE.UU. sobre componentes plasticos frente a metalicos en un conjunto de direccion. Aproximadamente 10.000 vehiculos quedaron en espera. Flow Agent detecta la desviacion temprano, activa la gestion de escalaciones y protege el arranque de serie."
+      },
+      {
+        "title": "CASE 2",
+        "body": "Crisis de calidad en una plataforma global de driveline con componentes electronicos y desviaciones de material. Flow Agent conecta monitoreo por pieza, alertas tempranas y documentacion lista para auditoria para decisiones bajo presion."
+      }
+    ]
+  }
+}
