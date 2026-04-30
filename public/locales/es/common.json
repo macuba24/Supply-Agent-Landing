@@ -107,5 +107,31 @@
         "body": "Crisis de calidad en una plataforma global de driveline con componentes electronicos y desviaciones de material. Flow Agent conecta monitoreo por pieza, alertas tempranas y documentacion lista para auditoria para decisiones bajo presion."
       }
     ]
+  },
+  "executiveReport": {
+    "kicker": "Lead Magnet para ejecutivos",
+    "title": "Executive Crisis Report",
+    "subtitle": "Patrones de respuesta para lanzamientos de plataforma critica con foco en riesgo de responsabilidad, auditoria de proveedores, proteccion EBITDA y aseguramiento preventivo de calidad.",
+    "cta": "Krisen-Report herunterladen (PDF)",
+    "note": "Acceso inmediato para liderazgo de proyecto, planta y compras."
+  },
+  "carParkAlert": {
+    "title": "Escenario 10k Car Park",
+    "body": "10.000 vehiculos. Un error de material. Cero transparencia. Evite el GAU antes de que ocurra."
+  },
+  "lifeChanger": {
+    "title": "De apagafuegos a decisor.",
+    "painTitle": "El dolor (Ayer):",
+    "painPoints": [
+      "Horas de gestion manual de datos en lugar de liderar proyectos.",
+      "Modo reactivo: apagar incendios que datos correctos habrian evitado.",
+      "Presion constante: miedo a no detectar una pequena desviacion de material en la cadena de suministro."
+    ],
+    "freedomTitle": "La libertad (Manana con Flow Agent):",
+    "freedomPoints": [
+      "Control proactivo: alertas antes de que la primera pieza salga de la planta del proveedor.",
+      "Integridad: en la proxima reunion de crisis, usted llega con hechos validados.",
+      "Work-life balance: automatizamos el caos para que vuelva a ser ingeniero y no detective de datos."
+    ]
   }
 }

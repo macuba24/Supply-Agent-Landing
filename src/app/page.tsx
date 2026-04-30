@@ -50,6 +50,24 @@ type LocaleCopy = {
     principle: string;
     cases: Array<{ title: string; body: string }>;
   };
+  executiveReport: {
+    kicker: string;
+    title: string;
+    subtitle: string;
+    cta: string;
+    note: string;
+  };
+  carParkAlert: {
+    title: string;
+    body: string;
+  };
+  lifeChanger: {
+    title: string;
+    painTitle: string;
+    painPoints: string[];
+    freedomTitle: string;
+    freedomPoints: string[];
+  };
   founder: {
     kicker: string;
     title: string;
@@ -225,6 +243,76 @@ export default function Home() {
                 <p className="mt-2 text-sm font-medium text-slate-200">{caseItem.body}</p>
               </article>
             ))}
+          </div>
+        </section>
+
+        <section className="grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
+          <article className="rounded-3xl border border-rose-500/40 bg-slate-900/90 p-7 shadow-2xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.14em] text-rose-300">{t.carParkAlert.title}</p>
+            <div className="relative mt-4 overflow-hidden rounded-2xl border border-slate-700 bg-slate-950/90 p-4">
+              <div className="grid grid-cols-8 gap-1 sm:grid-cols-10">
+                {Array.from({ length: 60 }).map((_, index) => (
+                  <span
+                    key={`lot-${index}`}
+                    className={`h-3 rounded-sm ${
+                      index % 11 === 0 ? "bg-rose-500/80" : "bg-slate-600/80"
+                    }`}
+                  />
+                ))}
+              </div>
+              <span className="absolute right-3 top-3 rounded-full border border-rose-300/70 bg-rose-600 px-3 py-1 text-xs font-black tracking-[0.12em] text-white">
+                STOP
+              </span>
+            </div>
+            <p className="mt-4 text-sm font-bold text-rose-100">{t.carParkAlert.body}</p>
+          </article>
+
+          <aside className="rounded-3xl border border-cyan-500/40 bg-slate-900/90 p-7 shadow-2xl">
+            <p className="text-xs uppercase tracking-[0.14em] text-cyan-300">{t.executiveReport.kicker}</p>
+            <h3 className="mt-2 text-2xl font-black text-white">{t.executiveReport.title}</h3>
+            <p className="mt-3 text-sm text-slate-200">{t.executiveReport.subtitle}</p>
+
+            <div className="mt-5 rounded-2xl border border-slate-700 bg-gradient-to-b from-slate-800 to-slate-950 p-4">
+              <div className="rounded-xl border border-cyan-500/40 bg-slate-900 p-4 shadow-lg">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-cyan-300">Executive Crisis Report</p>
+                <p className="mt-2 text-sm font-bold text-white">Systemische Lieferkettenrisiken unter Echtzeitkontrolle</p>
+                <p className="mt-2 text-xs text-slate-300">Haftungsrisiko | Lieferanten-Audit | EBITDA-Protection | Praeventive Qualitaetssicherung</p>
+              </div>
+            </div>
+
+            <a
+              href="#request-demo"
+              className="mt-5 inline-flex w-full items-center justify-center rounded-xl bg-cyan-400 px-4 py-3 text-sm font-black text-slate-950 transition hover:bg-cyan-300"
+            >
+              {t.executiveReport.cta}
+            </a>
+            <p className="mt-3 text-xs text-slate-400">{t.executiveReport.note}</p>
+          </aside>
+        </section>
+
+        <section className="rounded-3xl border border-emerald-500/35 bg-slate-900/90 p-7 shadow-2xl">
+          <h2 className="text-2xl font-black text-white md:text-3xl">{t.lifeChanger.title}</h2>
+          <div className="mt-5 grid gap-4 lg:grid-cols-2">
+            <article className="rounded-xl border border-rose-500/35 bg-rose-500/10 p-4">
+              <p className="text-sm font-bold text-rose-200">{t.lifeChanger.painTitle}</p>
+              <div className="mt-3 grid gap-2">
+                {t.lifeChanger.painPoints.map((point) => (
+                  <p key={point} className="rounded-lg border border-rose-500/25 bg-slate-950/60 px-3 py-2 text-sm text-slate-100">
+                    - {point}
+                  </p>
+                ))}
+              </div>
+            </article>
+            <article className="rounded-xl border border-emerald-500/35 bg-emerald-500/10 p-4">
+              <p className="text-sm font-bold text-emerald-200">{t.lifeChanger.freedomTitle}</p>
+              <div className="mt-3 grid gap-2">
+                {t.lifeChanger.freedomPoints.map((point) => (
+                  <p key={point} className="rounded-lg border border-emerald-500/25 bg-slate-950/60 px-3 py-2 text-sm text-slate-100">
+                    - {point}
+                  </p>
+                ))}
+              </div>
+            </article>
           </div>
         </section>
 

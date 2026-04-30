@@ -2,9 +2,9 @@
   "languageLabel": "DE",
   "requestDemo": "Demo anfragen",
   "suiteLabel": "Flow Agent Produktsuite",
-  "heroKicker": "Eskalationsmanagement",
-  "heroTitle": "Keine Kompromisse in der Lieferkette. KI-gestuetzte Praezision fuer den Automotive-Sektor.",
-  "heroSubtitle": "Flow Agent und Supply Agent sichern Serienanlauf, Gleichteil-Ueberwachung und Werkversorgung auf einer belastbaren Datenbasis.",
+  "heroKicker": "Krisenmodus Lieferkette",
+  "heroTitle": "Schutzschild gegen den naechsten Serien-GAU.",
+  "heroSubtitle": "Zwischen schlaflosen Naechten, Adrenalin-Chaos und Milliarden-Risiko liefert Flow Agent die Praezision, die kritische Plattform-Launches stabilisiert.",
   "globalPromise": "Entwickelt von einem Automobilingenieur",
   "primaryCta": "Demo anfragen",
   "marketTitle": "Marktfokus: Deutschland",
@@ -20,7 +20,7 @@
   "focusText": "IATF-Konformitaet, Prozessstabilitaet und belastbare SAP-Ausfuehrung fuer ingenieursgetriebene Organisationen im Serienanlauf.",
   "hardImpact": {
     "title": "Wenn jede Minute eine Million kostet.",
-    "content": "Unsere KI unterbindet Linienstopps durch fruehe Risikoerkennung, steuert Eskalationen ueber mehrere OEM-Programme hinweg und erzeugt revisionssichere Nachweise gemaess IATF 16949.",
+    "content": "In der Knochenmuehle globaler Serienprogramme verhindert Flow Agent Linienstopps durch fruehe Risikoerkennung, steuert Eskalationsmanagement ueber Critical Platform Launches und erzeugt revisionssichere Nachweise gemaess IATF 16949.",
     "indicators": [
       { "level": "ROT - Akut", "detail": "Linienstopp-Risiko: Sofortige Eskalation an Werk, Einkauf und Lieferant." },
       { "level": "GELB - Vorwarnung", "detail": "Gleichteil-Ueberwachung meldet Toleranzabweichungen vor dem Folgeschaden." },
@@ -29,23 +29,49 @@
   },
   "fieldReports": {
     "title": "Anonymisierte Feldberichte",
-    "principle": "Der Fokus liegt nicht auf Verantwortlichen, sondern auf den Mechanismen, mit denen Flow Agent systemische Risiken frueh erkennt und absichert.",
+    "principle": "Der Fokus liegt nicht auf Schuldzuweisung, sondern auf der einzigen Frage, die zaehlt: Wie verhindert Flow Agent den naechsten Serien-GAU in einem System unter Dauerdruck?",
     "cases": [
       {
         "title": "CASE 1",
-        "body": "Grossprojekt eines US-basierten OEM mit Kunststoff- gegen Metallkomponenten in einer Lenkungsbaugruppe. Rund 10.000 Fahrzeuge standen auf Hold. Flow Agent priorisiert Abweichungen, startet Eskalationsmanagement und stabilisiert den Serienanlauf."
+        "body": "Critical Platform Launch bei einem Major US OEM: Kunststoff- gegen Metallkomponenten in einer Lenkungsbaugruppe. 10.000 Fahrzeuge standen sichtbar auf dem Abstellplatz und durften nicht ausgeliefert werden. Der Projektleiter hatte seine Familie seit 72 Stunden nicht gesehen. Flow Agent erkennt die Abweichung frueh, priorisiert Risiken und treibt Eskalationsmanagement, bevor aus Zeitdruck ein Serien-GAU wird."
       },
       {
         "title": "CASE 2",
-        "body": "Qualitaetskrise in einer globalen Driveline-Plattform mit elektronischen Bauteilen und Materialabweichungen. Flow Agent kombiniert Gleichteil-Ueberwachung, fruehe Warnsignale und belastbare Nachweisfuehrung fuer Entscheidungen unter Zeitdruck."
+        "body": "Qualitaetskrise bei einem Global Tier-1 Supplier in einer globalen Driveline-Plattform: elektronische Komponenten plus Materialabweichungen trafen auf eng getaktete SOP-Fenster. Flow Agent kombiniert Gleichteil-Ueberwachung, fruehe Warnsignale und belastbare Nachweisfuehrung, damit Adrenalin-Chaos nicht zur Werkrealitaet wird."
       }
+    ]
+  },
+  "executiveReport": {
+    "kicker": "Lead-Magnet fuer Entscheider",
+    "title": "Executive Crisis Report",
+    "subtitle": "Verdichtete Handlungsmuster fuer Critical Platform Launches mit Fokus auf Haftungsrisiko, Lieferanten-Audit, EBITDA-Protection und Praeventive Qualitaetssicherung.",
+    "cta": "Krisen-Report herunterladen (PDF)",
+    "note": "Direkter Zugang fuer Projektleitung, Werkleitung und Einkauf."
+  },
+  "carParkAlert": {
+    "title": "10k Car Park Szenario",
+    "body": "10.000 Fahrzeuge. Ein Materialfehler. Null Transparenz. Verhindern Sie den GAU, bevor er entsteht."
+  },
+  "lifeChanger": {
+    "title": "Vom Getriebenen zum Entscheider.",
+    "painTitle": "Der Schmerz (Gestern):",
+    "painPoints": [
+      "Stundenlange Datenpflege: Sie jagen Informationen hinterher, statt Projekte zu leiten.",
+      "Reaktives Handeln: Sie loeschen Braende, die Sie mit den richtigen Daten nie haetten entstehen lassen.",
+      "Dauerdruck: Die Angst, eine winzige Materialabweichung in der Supply Chain zu uebersehen."
+    ],
+    "freedomTitle": "Die Freiheit (Morgen mit Flow Agent):",
+    "freedomPoints": [
+      "Proaktive Kontrolle: Das System warnt Sie, bevor die erste Komponente das Werk des Lieferanten verlaesst.",
+      "Integritaet: Bei der naechsten Krisensitzung sind Sie der Einzige mit validen Fakten auf dem Schirm.",
+      "Work-Life-Balance: Wir automatisieren das Chaos, damit Sie wieder Ingenieur sein koennen - und nicht Daten-Detektiv."
     ]
   },
   "founder": {
     "kicker": "Ueber den Gruender",
     "title": "20+ Jahre Automotive-Erfahrung in Qualitaet und Serienanlauf.",
     "body": "Der Gruender bringt mehr als 20 Jahre Erfahrung bei fuehrenden Tier-1-Zulieferern fuer Seating, Fuel Systems und Driveline-Technologie mit. Er verantwortete globale Programme fuer grosse deutsche und US-basierte OEMs.",
-    "usp": "Wir verbinden hohe Umsetzungsgeschwindigkeit mit deutscher Ingenieursqualitaet auf belastbarem Industrieniveau."
+    "usp": "Flow Agent ist der operative Schutzschild gegen systemische Serienrisiken: anonym, belastbar, entscheidungsfaehig in Minuten statt Tagen."
   },
   "roiModule": null,
   "flow": {

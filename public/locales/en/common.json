@@ -135,5 +135,31 @@
         "body": "A quality crisis in a global driveline platform involved electronic components and material deviations. Flow Agent links part-level monitoring, early warnings, and audit-ready documentation for time-critical decisions."
       }
     ]
+  },
+  "executiveReport": {
+    "kicker": "Lead Magnet for Executives",
+    "title": "Executive Crisis Report",
+    "subtitle": "Condensed response patterns for critical platform launches with focus on liability risk, supplier audit, EBITDA protection, and preventive quality assurance.",
+    "cta": "Krisen-Report herunterladen (PDF)",
+    "note": "Instant access for project, plant, and procurement leadership."
+  },
+  "carParkAlert": {
+    "title": "10k Car Park Scenario",
+    "body": "10,000 vehicles. One material defect. Zero transparency. Prevent the next failure before it starts."
+  },
+  "lifeChanger": {
+    "title": "From Firefighter to Decision-Maker.",
+    "painTitle": "The Pain (Yesterday):",
+    "painPoints": [
+      "Hours of manual data chasing instead of leading projects.",
+      "Reactive mode: putting out fires that clear data should have prevented.",
+      "Constant pressure: fear of missing a tiny material deviation in the supply chain."
+    ],
+    "freedomTitle": "The Freedom (Tomorrow with Flow Agent):",
+    "freedomPoints": [
+      "Proactive control: alerts arrive before the first component leaves the supplier plant.",
+      "Integrity: in the next crisis meeting, you are the one with validated facts.",
+      "Work-life balance: we automate the chaos so you can be an engineer again, not a data detective."
+    ]
   }
 }
