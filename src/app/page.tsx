@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 
@@ -164,7 +165,12 @@ export default function Home() {
                     : "text-slate-200 hover:bg-slate-800"
                 }`}
               >
-                🛰️ {t.flow.tabLabel}
+                <span className="inline-flex items-center gap-2">
+                  <span className="relative h-5 w-5 overflow-hidden rounded-md border border-slate-700 shadow-sm">
+                    <Image src="/flow-icon.png" alt="Flow Agent" fill className="object-cover" />
+                  </span>
+                  {t.flow.tabLabel}
+                </span>
               </button>
               <button
                 type="button"
@@ -175,7 +181,12 @@ export default function Home() {
                     : "text-slate-200 hover:bg-slate-800"
                 }`}
               >
-                🤖 {t.supply.tabLabel}
+                <span className="inline-flex items-center gap-2">
+                  <span className="relative h-5 w-5 overflow-hidden rounded-md border border-slate-700 shadow-sm">
+                    <Image src="/supply-icon.png" alt="Supply Agent" fill className="object-cover" />
+                  </span>
+                  {t.supply.tabLabel}
+                </span>
               </button>
             </div>
 

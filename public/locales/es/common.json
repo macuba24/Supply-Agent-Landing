@@ -21,7 +21,7 @@
   "founder": {
     "kicker": "Sobre el fundador",
     "title": "20+ anos de experiencia automotriz en ejecucion y calidad.",
-    "body": "El fundador aporta mas de 20 anos de experiencia en proveedores Tier-1 lideres de Seating, Fuel Systems y tecnologia Driveline. Ha gestionado proyectos globales para grandes OEMs alemanes y estadounidenses.",
+    "body": "Más de 20 años en la dirección de proyectos técnicos para Tier-1 globales (Interiores, Sistemas de Combustible, Transmisiones). He vivido las noches en planta para salvar lanzamientos de grandes OEMs.",
     "usp": "Combinamos alta velocidad de ejecucion con calidad de ingenieria alemana a escala industrial."
   },
   "roiModule": null,
@@ -82,7 +82,7 @@
     "indicators": [
       {
         "level": "ROJO - Critico",
-        "detail": "Riesgo de paro de linea activo, escalacion inmediata."
+        "detail": "Riesgo de paro de línea activo, escalación inmediata."
       },
       {
         "level": "AMARILLO - Alerta",
@@ -90,7 +90,7 @@
       },
       {
         "level": "VERDE - Estable",
-        "detail": "Trazabilidad y evidencia listas para auditoria."
+        "detail": "Trazabilidad y evidencia listas para auditoría."
       }
     ]
   },
@@ -111,8 +111,8 @@
   "executiveReport": {
     "kicker": "Lead Magnet para ejecutivos",
     "title": "Executive Crisis Report",
-    "subtitle": "Patrones de respuesta para lanzamientos de plataforma critica con foco en riesgo de responsabilidad, auditoria de proveedores, proteccion EBITDA y aseguramiento preventivo de calidad.",
-    "cta": "Krisen-Report herunterladen (PDF)",
+    "subtitle": "Patrones de respuesta para lanzamientos de plataforma crítica con foco en riesgo de Responsabilidad Civil, auditoría de proveedores, protección EBITDA y aseguramiento preventivo de calidad.",
+    "cta": "Descargar informe de crisis (PDF)",
     "note": "Acceso inmediato para liderazgo de proyecto, planta y compras."
   },
   "carParkAlert": {
@@ -131,7 +131,7 @@
     "freedomPoints": [
       "Control proactivo: alertas antes de que la primera pieza salga de la planta del proveedor.",
       "Integridad: en la proxima reunion de crisis, usted llega con hechos validados.",
-      "Work-life balance: automatizamos el caos para que vuelva a ser ingeniero y no detective de datos."
+      "Equilibrio vida-trabajo: automatizamos el caos para que vuelva a ser ingeniero y no detective de datos."
     ]
   }
 }
