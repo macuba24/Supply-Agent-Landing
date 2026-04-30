@@ -129,6 +129,10 @@ export default function Home() {
     };
   }, [locale]);
 
+  useEffect(() => {
+    document.documentElement.lang = locale;
+  }, [locale]);
+
   if (!copy) {
     return null;
   }
