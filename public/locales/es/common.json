@@ -21,7 +21,7 @@
   "founder": {
     "kicker": "Sobre el fundador",
     "title": "20+ anos de experiencia automotriz en ejecucion y calidad.",
-    "body": "Más de 20 años en la dirección de proyectos técnicos para Tier-1 globales (Interiores, Sistemas de Combustible, Transmisiones). He vivido las noches en planta para salvar lanzamientos de grandes OEMs.",
+    "body": "M\u00e1s de 20 a\u00f1os en la direcci\u00f3n de proyectos t\u00e9cnicos para Tier-1 globales (Interiores, Sistemas de Combustible, Transmisiones). He vivido las noches en planta para salvar lanzamientos de grandes OEMs.",
     "usp": "Combinamos alta velocidad de ejecucion con calidad de ingenieria alemana a escala industrial."
   },
   "roiModule": null,
@@ -82,7 +82,7 @@
     "indicators": [
       {
         "level": "ROJO - Critico",
-        "detail": "Riesgo de paro de línea activo, escalación inmediata."
+        "detail": "Riesgo de paro de l\u00ednea activo, escalaci\u00f3n inmediata."
       },
       {
         "level": "AMARILLO - Alerta",
@@ -90,7 +90,7 @@
       },
       {
         "level": "VERDE - Estable",
-        "detail": "Trazabilidad y evidencia listas para auditoría."
+        "detail": "Trazabilidad y evidencia listas para auditor\u00eda."
       }
     ]
   },
@@ -111,7 +111,7 @@
   "executiveReport": {
     "kicker": "Lead Magnet para ejecutivos",
     "title": "Executive Crisis Report",
-    "subtitle": "Patrones de respuesta para lanzamientos de plataforma crítica con foco en riesgo de Responsabilidad Civil, auditoría de proveedores, protección EBITDA y aseguramiento preventivo de calidad.",
+    "subtitle": "Patrones de respuesta para lanzamientos de plataforma cr\u00edtica con foco en riesgo de Responsabilidad Civil, auditor\u00eda de proveedores, protecci\u00f3n EBITDA y aseguramiento preventivo de calidad.",
     "cta": "Descargar informe de crisis (PDF)",
     "note": "Acceso inmediato para liderazgo de proyecto, planta y compras."
   },
@@ -133,5 +133,6 @@
       "Integridad: en la proxima reunion de crisis, usted llega con hechos validados.",
       "Equilibrio vida-trabajo: automatizamos el caos para que vuelva a ser ingeniero y no detective de datos."
     ]
-  }
+  },
+  "certifiedBadge": "Excelencia certificada - estandar conforme a IATF 16949"
 }

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeShellExecution": [
+      {
+        "command": ".cursor/hooks/enforce-i18n.ps1",
+        "matcher": "git\\s+push|vercel\\s+.*--prod",
+        "failClosed": true
+      }
+    ]
+  }
+}

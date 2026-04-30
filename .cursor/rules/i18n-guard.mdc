@@ -1,0 +1,14 @@
+---
+description: Enforce locale purity before push/deploy
+alwaysApply: true
+---
+
+# Locale Purity Guard
+
+- Before deploy or git push, run `npm run check:i18n`.
+- Keep locale files language-pure:
+  - `public/locales/de/common.json` -> German only
+  - `public/locales/en/common.json` -> English only
+  - `public/locales/es/common.json` -> Spanish only
+- If mixed terms are found, fix them before continuing.
+- When changing copy in one locale, quickly scan sibling locales to avoid accidental carry-over.

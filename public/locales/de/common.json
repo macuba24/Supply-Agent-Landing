@@ -1,91 +1,92 @@
 {
   "languageLabel": "DE",
-  "requestDemo": "Demo anfragen",
+  "requestDemo": "Jetzt System-Demo vereinbaren",
   "suiteLabel": "Flow Agent Produktsuite",
   "heroKicker": "Krisenmodus Lieferkette",
-  "heroTitle": "Schutzschild gegen den naechsten Serien-GAU.",
-  "heroSubtitle": "Zwischen schlaflosen Naechten, Adrenalin-Chaos und Milliarden-Risiko liefert Flow Agent die Praezision, die kritische Plattform-Launches stabilisiert.",
+  "heroTitle": "Schutzschild gegen den nächsten Serien-GAU.",
+  "heroSubtitle": "Souveränität statt Reaktion: Flow Agent liefert Zero-Failure-Steuerung für Marktführer im Automotive-Sektor - vom Lieferanten bis zur Werkslinie.",
   "globalPromise": "Entwickelt von einem Automobilingenieur",
-  "primaryCta": "Demo anfragen",
+  "primaryCta": "Sichern Sie sich den entscheidenden Vorsprung",
   "marketTitle": "Marktfokus: Deutschland",
-  "marketSubtitle": "Ingenieursqualitaet, Regelkonformitaet und tiefe SAP-Integration fuer stabile Serienprozesse.",
+  "marketSubtitle": "Ingenieursqualität, Regelkonformität und tiefe SAP-Integration für stabile Serienprozesse.",
   "marketBullets": [
     "IATF-16949-konforme Dokumentation und Nachweisprotokoll",
     "DSGVO-konforme Datenhaltung mit klarer Nachvollziehbarkeit",
     "Dunkelbuchungsquote senken durch strukturierte Extraktion",
     "Tiefe SAP-Integration via OData/BAPI ohne Umbau des Kernsystems"
   ],
-  "marketQuote": "Technische Praezision statt Folienversprechen - ausgelegt fuer den Ernstfall im Werkbetrieb.",
+  "marketQuote": "Technische Souveränität statt Folienversprechen - für Zero-Failure-Ausführung und belastbare Marktführerschaft.",
   "focusTitle": "Regionaler Fokus",
-  "focusText": "IATF-Konformitaet, Prozessstabilitaet und belastbare SAP-Ausfuehrung fuer ingenieursgetriebene Organisationen im Serienanlauf.",
+  "focusText": "IATF-Konformität, Prozessstabilität und belastbare SAP-Ausführung für Organisationen, die Lieferketten nicht nur steuern, sondern dominieren.",
   "hardImpact": {
     "title": "Wenn jede Minute eine Million kostet.",
-    "content": "In der Knochenmuehle globaler Serienprogramme verhindert Flow Agent Linienstopps durch fruehe Risikoerkennung, steuert Eskalationsmanagement ueber Critical Platform Launches und erzeugt revisionssichere Nachweise gemaess IATF 16949.",
+    "content": "In der Knochenmühle globaler Serienprogramme verhindert Flow Agent Linienstopps durch frühe Risikoerkennung, steuert Eskalationsmanagement über Critical Platform Launches und erzeugt revisionssichere Nachweise gemäß IATF 16949.",
     "indicators": [
       { "level": "ROT - Akut", "detail": "Linienstopp-Risiko: Sofortige Eskalation an Werk, Einkauf und Lieferant." },
-      { "level": "GELB - Vorwarnung", "detail": "Gleichteil-Ueberwachung meldet Toleranzabweichungen vor dem Folgeschaden." },
-      { "level": "GRUEN - Stabil", "detail": "Auditfaehige Dokumentation fuer IATF 16949 liegt vollstaendig und abrufbar vor." }
+      { "level": "GELB - Vorwarnung", "detail": "Gleichteil-Überwachung meldet Toleranzabweichungen vor dem Folgeschaden." },
+      { "level": "GRÜN - Stabil", "detail": "Auditfähige Dokumentation für IATF 16949 liegt vollständig und abrufbar vor." }
     ]
   },
   "fieldReports": {
     "title": "Anonymisierte Feldberichte",
-    "principle": "Der Fokus liegt nicht auf Schuldzuweisung, sondern auf der einzigen Frage, die zaehlt: Wie verhindert Flow Agent den naechsten Serien-GAU in einem System unter Dauerdruck?",
+    "principle": "Der Fokus liegt auf Souveränität: ohne Flow Agent wird der 10.000-Fahrzeuge-Fall zur ultimativen Warnung, mit Flow Agent zur kontrollierten Ausnahme.",
     "cases": [
       {
         "title": "CASE 1",
-        "body": "Critical Platform Launch bei einem Major US OEM: Kunststoff- gegen Metallkomponenten in einer Lenkungsbaugruppe. 10.000 Fahrzeuge standen sichtbar auf dem Abstellplatz und durften nicht ausgeliefert werden. Der Projektleiter hatte seine Familie seit 72 Stunden nicht gesehen. Flow Agent erkennt die Abweichung frueh, priorisiert Risiken und treibt Eskalationsmanagement, bevor aus Zeitdruck ein Serien-GAU wird."
+        "body": "Critical Platform Launch bei einem Major US OEM: Kunststoff- gegen Metallkomponenten in einer Lenkungsbaugruppe. 10.000 Fahrzeuge standen sichtbar auf dem Abstellplatz und durften nicht ausgeliefert werden. Der Projektleiter hatte seine Familie seit 72 Stunden nicht gesehen. Flow Agent erkennt die Abweichung früh, priorisiert Risiken und treibt Eskalationsmanagement, bevor aus Zeitdruck ein Serien-GAU wird."
       },
       {
         "title": "CASE 2",
-        "body": "Qualitaetskrise bei einem Global Tier-1 Supplier in einer globalen Driveline-Plattform: elektronische Komponenten plus Materialabweichungen trafen auf eng getaktete SOP-Fenster. Flow Agent kombiniert Gleichteil-Ueberwachung, fruehe Warnsignale und belastbare Nachweisfuehrung, damit Adrenalin-Chaos nicht zur Werkrealitaet wird."
+        "body": "Qualitätskrise bei einem Global Tier-1 Supplier in einer globalen Driveline-Plattform: elektronische Komponenten plus Materialabweichungen trafen auf eng getaktete SOP-Fenster. Flow Agent kombiniert Gleichteil-Überwachung, frühe Warnsignale und belastbare Nachweisführung, damit Adrenalin-Chaos nicht zur Werkrealität wird."
       }
     ]
   },
   "executiveReport": {
-    "kicker": "Lead-Magnet fuer Entscheider",
+    "kicker": "Lead-Magnet für Entscheider",
     "title": "Executive Crisis Report",
-    "subtitle": "Verdichtete Handlungsmuster fuer Critical Platform Launches mit Fokus auf Haftungsrisiko, Lieferanten-Audit, EBITDA-Protection und Praeventive Qualitaetssicherung.",
+    "subtitle": "Verdichtete Handlungsmuster für Critical Platform Launches mit Fokus auf Haftungsrisiko, Lieferanten-Audit, EBITDA-Protection und Präventive Qualitätssicherung.",
     "cta": "Krisen-Report herunterladen (PDF)",
-    "note": "Direkter Zugang fuer Projektleitung, Werkleitung und Einkauf."
+    "note": "Direkter Zugang für Projektleitung, Werkleitung und Einkauf."
   },
   "carParkAlert": {
     "title": "10k Car Park Szenario",
-    "body": "10.000 Fahrzeuge. Ein Materialfehler. Null Transparenz. Verhindern Sie den GAU, bevor er entsteht."
+    "body": "10.000 Fahrzeuge. Ein Materialfehler. Null Transparenz. Das ist die ultimative Warnung ohne Flow Agent. Don't just manage. Dominate your Supply Chain."
   },
   "lifeChanger": {
     "title": "Vom Getriebenen zum Entscheider.",
     "painTitle": "Der Schmerz (Gestern):",
     "painPoints": [
       "Stundenlange Datenpflege: Sie jagen Informationen hinterher, statt Projekte zu leiten.",
-      "Reaktives Handeln: Sie loeschen Braende, die Sie mit den richtigen Daten nie haetten entstehen lassen.",
-      "Dauerdruck: Die Angst, eine winzige Materialabweichung in der Supply Chain zu uebersehen."
+      "Reaktives Handeln: Sie löschen Brände, die Sie mit den richtigen Daten nie hätten entstehen lassen.",
+      "Dauerdruck: Die Angst, eine winzige Materialabweichung in der Supply Chain zu übersehen."
     ],
     "freedomTitle": "Die Freiheit (Morgen mit Flow Agent):",
     "freedomPoints": [
-      "Proaktive Kontrolle: Das System warnt Sie, bevor die erste Komponente das Werk des Lieferanten verlaesst.",
-      "Integritaet: Bei der naechsten Krisensitzung sind Sie der Einzige mit validen Fakten auf dem Schirm.",
-      "Work-Life-Balance: Wir automatisieren das Chaos, damit Sie wieder Ingenieur sein koennen - und nicht Daten-Detektiv."
+      "Proaktive Kontrolle: Das System warnt Sie, bevor die erste Komponente das Werk des Lieferanten verlässt.",
+      "Integrität: Bei der nächsten Krisensitzung sind Sie der Einzige mit validen Fakten auf dem Schirm.",
+      "Work-Life-Balance: Wir automatisieren das Chaos, damit Sie wieder Ingenieur sein können - und nicht Daten-Detektiv."
     ]
   },
+  "certifiedBadge": "Certified Excellence - IATF 16949 konformer Standard",
   "founder": {
-    "kicker": "Ueber den Gruender",
-    "title": "20+ Jahre Automotive-Erfahrung in Qualitaet und Serienanlauf.",
-    "body": "Der Gruender bringt mehr als 20 Jahre Erfahrung bei fuehrenden Tier-1-Zulieferern fuer Seating, Fuel Systems und Driveline-Technologie mit. Er verantwortete globale Programme fuer grosse deutsche und US-basierte OEMs.",
-    "usp": "Flow Agent ist der operative Schutzschild gegen systemische Serienrisiken: anonym, belastbar, entscheidungsfaehig in Minuten statt Tagen."
+    "kicker": "Über den Gründer",
+    "title": "20+ Jahre Automotive-Erfahrung in Qualität und Serienanlauf.",
+    "body": "Der Gründer bringt mehr als 20 Jahre Erfahrung bei führenden Tier-1-Zulieferern für Seating, Fuel Systems und Driveline-Technologie mit. Er verantwortete globale Programme für große deutsche und US-basierte OEMs.",
+    "usp": "Flow Agent ist der operative Schutzschild gegen systemische Serienrisiken: anonym, belastbar, entscheidungsfähig in Minuten statt Tagen."
   },
   "roiModule": null,
   "flow": {
     "tabLabel": "Flow Agent",
     "tag": "Echtzeit-Verfolgung",
     "title": "Steuern Sie den kritischen Pfad in Echtzeit.",
-    "description": "Flow Agent liefert 24/7 Sicht auf Transport, Engpaesse und Risikoentwicklung - damit Produktion und Beschaffung nicht im Blindflug arbeiten.",
+    "description": "Flow Agent liefert 24/7 Sicht auf Transport, Engpässe und Risikoentwicklung - damit Produktion und Beschaffung nicht im Blindflug arbeiten.",
     "highlights": [
-      "Vorhergesagte Engpaesse mit priorisierter Risikobewertung",
-      "Echtzeitverfolgung fuer globale Lieferstroeme",
+      "Vorhergesagte Engpässe mit priorisierter Risikobewertung",
+      "Echtzeitverfolgung für globale Lieferströme",
       "SAP-nahe Entscheidungslogik fuer operative Teams"
     ],
     "kpis": [
-      { "label": "Frueherkennung", "value": "bis zu 48h" },
+      { "label": "Früherkennung", "value": "bis zu 48h" },
       { "label": "Sichtbarkeit", "value": "24/7" },
       { "label": "Integration", "value": "SAP OData/BAPI" }
     ]
@@ -94,11 +95,11 @@
     "tabLabel": "Supply Agent",
     "tag": "KI-Dokumentextraktion",
     "title": "Von Frachtdokument zu sauberem ERP-Datensatz in Minuten.",
-    "description": "Supply Agent digitalisiert dokumentenlastige Prozesse, reduziert manuelle Eingriffe und schafft eine valide Datenbasis fuer Einkauf, Qualitaet und Finanzen.",
+    "description": "Supply Agent digitalisiert dokumentenlastige Prozesse, reduziert manuelle Eingriffe und schafft eine valide Datenbasis für Einkauf, Qualität und Finanzen.",
     "highlights": [
       "Automatische Extraktion aus PDF, Lieferschein und Lieferantendokumenten",
       "Reduktion versteckter Verwaltungsarbeit in Ingenieurteams",
-      "Standardisierte Uebergabe an SAP-Prozessablaeufe"
+      "Standardisierte Übergabe an SAP-Prozessabläufe"
     ],
     "kpis": [
       { "label": "Zeit pro Dokument", "value": "45 -> 3 Min" },

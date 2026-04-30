@@ -140,7 +140,7 @@
     "kicker": "Lead Magnet for Executives",
     "title": "Executive Crisis Report",
     "subtitle": "Condensed response patterns for critical platform launches with focus on liability risk, supplier audit, EBITDA protection, and preventive quality assurance.",
-    "cta": "Krisen-Report herunterladen (PDF)",
+    "cta": "Download Crisis Report (PDF)",
     "note": "Instant access for project, plant, and procurement leadership."
   },
   "carParkAlert": {
@@ -161,5 +161,6 @@
       "Integrity: in the next crisis meeting, you are the one with validated facts.",
       "Work-life balance: we automate the chaos so you can be an engineer again, not a data detective."
     ]
-  }
+  },
+  "certifiedBadge": "Certified Excellence - IATF 16949 compliant standard"
 }

@@ -69,6 +69,7 @@ type LocaleCopy = {
     freedomTitle: string;
     freedomPoints: string[];
   };
+  certifiedBadge: string;
   founder: {
     kicker: string;
     title: string;
@@ -159,14 +160,14 @@ export default function Home() {
               <button
                 type="button"
                 onClick={() => setActiveProduct("flow")}
-                className={`rounded-lg px-4 py-2 text-sm font-semibold transition ${
+                className={`rounded-lg border px-4 py-2 text-sm font-bold shadow-lg transition ${
                   activeProduct === "flow"
-                    ? "bg-cyan-400 text-slate-950"
-                    : "text-slate-200 hover:bg-slate-800"
+                    ? "border-cyan-300 bg-cyan-300 text-slate-950 shadow-[0_0_14px_rgba(34,211,238,0.45)]"
+                    : "border-slate-700 text-slate-200 hover:bg-slate-800"
                 }`}
               >
                 <span className="inline-flex items-center gap-2">
-                  <span className="relative h-5 w-5 overflow-hidden rounded-md border border-slate-700 shadow-sm">
+                  <span className="relative h-6 w-6 overflow-hidden rounded-md border border-slate-700 bg-slate-800 shadow-[inset_0_0_0_1px_rgba(148,163,184,0.35),0_3px_8px_rgba(0,0,0,0.45)]">
                     <Image src="/flow-icon.png" alt="Flow Agent" fill className="object-cover" />
                   </span>
                   {t.flow.tabLabel}
@@ -175,14 +176,14 @@ export default function Home() {
               <button
                 type="button"
                 onClick={() => setActiveProduct("supply")}
-                className={`rounded-lg px-4 py-2 text-sm font-semibold transition ${
+                className={`rounded-lg border px-4 py-2 text-sm font-bold shadow-lg transition ${
                   activeProduct === "supply"
-                    ? "bg-cyan-400 text-slate-950"
-                    : "text-slate-200 hover:bg-slate-800"
+                    ? "border-cyan-300 bg-cyan-300 text-slate-950 shadow-[0_0_14px_rgba(34,211,238,0.45)]"
+                    : "border-slate-700 text-slate-200 hover:bg-slate-800"
                 }`}
               >
                 <span className="inline-flex items-center gap-2">
-                  <span className="relative h-5 w-5 overflow-hidden rounded-md border border-slate-700 shadow-sm">
+                  <span className="relative h-6 w-6 overflow-hidden rounded-md border border-slate-700 bg-slate-800 shadow-[inset_0_0_0_1px_rgba(148,163,184,0.35),0_3px_8px_rgba(0,0,0,0.45)]">
                     <Image src="/supply-icon.png" alt="Supply Agent" fill className="object-cover" />
                   </span>
                   {t.supply.tabLabel}
@@ -291,7 +292,7 @@ export default function Home() {
               <div className="rounded-xl border border-cyan-500/40 bg-slate-900 p-4 shadow-lg">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-cyan-300">Executive Crisis Report</p>
                 <p className="mt-2 text-sm font-bold text-white">Systemische Lieferkettenrisiken unter Echtzeitkontrolle</p>
-                <p className="mt-2 text-xs text-slate-300">Haftungsrisiko | Lieferanten-Audit | EBITDA-Protection | Praeventive Qualitaetssicherung</p>
+                <p className="mt-2 text-xs text-slate-300">Haftungsrisiko | Lieferanten-Audit | EBITDA-Protection | Präventive Qualitätssicherung</p>
               </div>
             </div>
 
@@ -426,7 +427,10 @@ export default function Home() {
 
         <section id="request-demo" className="rounded-2xl border border-cyan-500/30 bg-slate-900/80 p-6 text-center">
           <p className="text-sm text-slate-300">{t.languageLabel}</p>
-          <h4 className="mt-2 text-xl font-semibold">{t.primaryCta}</h4>
+          <h4 className="mt-2 text-xl font-bold">{t.primaryCta}</h4>
+          <p className="mt-3 inline-flex rounded-full border border-amber-300/60 bg-amber-400/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.1em] text-amber-100">
+            {t.certifiedBadge}
+          </p>
           <p className="mt-2 text-sm text-slate-400">{t.contactEmail}</p>
         </section>
       </section>
